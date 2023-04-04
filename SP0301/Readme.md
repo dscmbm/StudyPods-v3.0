@@ -7,7 +7,7 @@
 
 This is the folder for team SP03\_\_ participating in StudyPods v3.0 by Google Developers Student Club MBM.
 
-<details open="open">
+<!-- <details open="open"> -->
   <summary>Table of Contents</summary>
   <ol>
     <li>
@@ -104,9 +104,9 @@ Date:
 
 ### Logs
 
-## Resources
+<!-- ## Resources -->
 
-## Roadmap
+<!-- ## Roadmap -->
 
 ## Project
 
@@ -116,7 +116,6 @@ This section contains the details about the different projects made by the team.
 
 <!-- Add the summary of the project along with the link to the markdown file for the project. Check out the Sample Project.md to get the idea of the structure of the Project file.
 -->
-
 
 ## License
 
