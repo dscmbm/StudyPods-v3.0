@@ -37,7 +37,7 @@ Welcome to our project StudyPods-v3.0. The goal of this project is to provide st
 
 ## Citizen Code of Conduct
 
-A primary goal of Study Pods V2.0 is to be inclusive to the largest number of contributors, with the most varied and diverse backgrounds possible. As such, we are committed to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, ability, ethnicity, socioeconomic status, and religion (or lack thereof).
+A primary goal of Study Pods V3.0 is to be inclusive to the largest number of contributors, with the most varied and diverse backgrounds possible. As such, we are committed to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, ability, ethnicity, socioeconomic status, and religion (or lack thereof).
 
 [Code of Conduct](https://github.com/dscmbm/StudyPods-v3.0/blob/main/CODE_OF_CONDUCT.md)
 
