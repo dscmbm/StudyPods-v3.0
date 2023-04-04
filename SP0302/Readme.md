@@ -65,7 +65,6 @@ Person1<br>
 Person2<br>
 Person3<br>
 Person4<br>
-Person5
 
 ### Mentor
 
