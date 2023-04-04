@@ -7,7 +7,7 @@
 
 This is the folder for team SP03\_\_ participating in StudyPods v3.0 by Google Developers Student Club MBM.
 
-<details open="open">
+<!-- <details open="open">
   <summary>Table of Contents</summary>
   <ol>
     <li>
@@ -32,16 +32,16 @@ This is the folder for team SP03\_\_ participating in StudyPods v3.0 by Google D
     <li>
       <a href="#project">Projects</a>
       <ul>
-      <!--
+
         <li><a href="#overview">Overview</a></li>
         <li>
           <a href="#getting-started">Getting Started</a>
           <ul>
             <li><a href="#prerequisites">Prerequisites</a></li>
             <li><a href="#installation">Installation</a></li>
-          </ul>  
+          </ul>
         </li>
-      -->
+
       <li><a href="#project-1">Project 1</a></li>
       <li><a href="#project-2">Project 2</a></li>
       </ul>
@@ -49,7 +49,7 @@ This is the folder for team SP03\_\_ participating in StudyPods v3.0 by Google D
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
-</details>
+</details> -->
 
 ## About StudyPods v3.0
 
@@ -65,15 +65,14 @@ Person1<br>
 Person2<br>
 Person3<br>
 Person4<br>
-Person5
 
 ### Mentor
 
 Mentor1
 
-## Daily Logs
+## Weekly/Monthly Logs
 
-Daily Logs is an important activity planned by DSC MBM to motivate participants to note their progress and prepare the log for future generation to plan accordingly.
+Weekly Logs is an important activity planned by DSC MBM to motivate participants to note their progress and prepare the log for future generation to plan accordingly.
 
 ### Format
 
@@ -84,30 +83,30 @@ Date:
 
   Team Member1:
 
-    What have you done today:
+    What have you done in the week:
     Blockers/Challenegs you have faced:
 
   Team Member2:
 
-    What have you done today:
+    What have you done in the week:
     Blockers/Challenegs you have faced:
 
   Team Member3:
 
-    What have you done today:
+    What have you done in the week:
     Blockers/Challenegs you have faced:
 
   Team Member4:
 
-    What have you done today:
+    What have you done in the week:
     Blockers/Challenegs you have faced:
 ```
 
 ### Logs
 
-## Resources
+<!-- ## Resources -->
 
-## Roadmap
+<!-- ## Roadmap -->
 
 ## Project
 
@@ -117,8 +116,6 @@ This section contains the details about the different projects made by the team.
 
 <!-- Add the summary of the project along with the link to the markdown file for the project. Check out the Sample Project.md to get the idea of the structure of the Project file.
 -->
-
-### Project 2
 
 ## License
 
