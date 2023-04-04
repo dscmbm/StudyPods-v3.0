@@ -71,9 +71,9 @@ Person5
 
 Mentor1
 
-## Daily Logs
+## Weekly/Monthly Logs
 
-Daily Logs is an important activity planned by DSC MBM to motivate participants to note their progress and prepare the log for future generation to plan accordingly.
+Weekly Logs is an important activity planned by DSC MBM to motivate participants to note their progress and prepare the log for future generation to plan accordingly.
 
 ### Format
 
@@ -84,22 +84,22 @@ Date:
 
   Team Member1:
 
-    What have you done today:
+    What have you done in the week:
     Blockers/Challenegs you have faced:
 
   Team Member2:
 
-    What have you done today:
+    What have you done in the week:
     Blockers/Challenegs you have faced:
 
   Team Member3:
 
-    What have you done today:
+    What have you done in the week:
     Blockers/Challenegs you have faced:
 
   Team Member4:
 
-    What have you done today:
+    What have you done in the week:
     Blockers/Challenegs you have faced:
 ```
 
@@ -118,7 +118,6 @@ This section contains the details about the different projects made by the team.
 <!-- Add the summary of the project along with the link to the markdown file for the project. Check out the Sample Project.md to get the idea of the structure of the Project file.
 -->
 
-### Project 2
 
 ## License
 
