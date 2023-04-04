@@ -11,10 +11,10 @@ This is the folder for team SP03\_\_ participating in StudyPods v3.0 by Google D
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-studypods-v3.0">About StudyPods v2.0</a>
+      <a href="#about-studypods-v3.0">About StudyPods v3.0</a>
     </li>
     <li>
-      <a href="#sp0301">SP02__</a>
+      <a href="#sp0301">SP03__</a>
       <ul>
         <li><a href="#team">Team</a></li>
         <li><a href="#mentor">Mentor</a></li>
@@ -57,7 +57,7 @@ Study pods is an initiative taken by DSC MBM to promote peer-to-peer learning am
 
 ## SP03\_\_
 
-SP02\_\_ is an amazing team built by the efforts of its team members and the support of its mentors
+SP03\_\_ is an amazing team built by the efforts of its team members and the support of its mentors
 
 ### Team
 
