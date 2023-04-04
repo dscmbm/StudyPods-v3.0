@@ -1,4 +1,4 @@
-# StudyPods-v2.0
+# StudyPods-v3.0
 
 This is the official GitHub repository of StudyPods v3.0 initiative by DSC MBM
 
