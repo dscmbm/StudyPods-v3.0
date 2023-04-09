@@ -3,9 +3,9 @@
 [![MIT License][license-shield]][license-url]
 [![Discord][discord-shield]][discord-url]
 
-<h1 align="center"> SP03__ </h1>
+<h1 align="center"> SP0319 </h1>
 
-This is the folder for team SP03\_\_ participating in StudyPods v3.0 by Google Developers Student Club MBM.
+This is the folder for team SP03\1\9 participating in StudyPods v3.0 by Google Developers Student Club MBM.
 
 <!-- <details open="open">
   <summary>Table of Contents</summary>
@@ -14,7 +14,7 @@ This is the folder for team SP03\_\_ participating in StudyPods v3.0 by Google D
       <a href="#about-studypods-v3.0">About StudyPods v3.0</a>
     </li>
     <li>
-      <a href="#sp0301">SP03__</a>
+      <a href="#sp0301">SP0319</a>
       <ul>
         <li><a href="#team">Team</a></li>
         <li><a href="#mentor">Mentor</a></li>
@@ -42,8 +42,8 @@ This is the folder for team SP03\_\_ participating in StudyPods v3.0 by Google D
           </ul>
         </li>
 
-      <li><a href="#project-1">Project 1</a></li>
-      <li><a href="#project-2">Project 2</a></li>
+      <li><a href="#project-1">WEB SCRAPER</a></li>
+     
       </ul>
     </li>
     <li><a href="#license">License</a></li>
@@ -61,14 +61,14 @@ SP03\_\_ is an amazing team built by the efforts of its team members and the sup
 
 ### Team
 
-Person1<br>
-Person2<br>
-Person3<br>
-Person4<br>
+Aditya Sharma<br>
+Jatin Verma<br>
+Dherya Mittal<br>
+Aman Khan<br>
 
 ### Mentor
 
-Mentor1
+Divya Chopra
 
 ## Weekly/Monthly Logs
 
