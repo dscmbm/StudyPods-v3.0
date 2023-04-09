@@ -3,7 +3,7 @@
 [![MIT License][license-shield]][license-url]
 [![Discord][discord-shield]][discord-url]
 
-<h1 align="center"> SP03__ </h1>
+<h1 align="center"> SP0325 </h1>
 
 This is the folder for team SP03\_\_ participating in StudyPods v3.0 by Google Developers Student Club MBM.
 
@@ -55,20 +55,20 @@ This is the folder for team SP03\_\_ participating in StudyPods v3.0 by Google D
 
 Study pods is an initiative taken by DSC MBM to promote peer-to-peer learning among the students with a notion that says “Learn Together, Build Together”.The program is designed to offer participants a good exposure of technology and the technical world. It is an approx one month-long program that connects like-minded participants interested in a particular domain to come together, learn together and then build together. StudyPod mentors assist participants with the roadmap, resources, take weekly updates and solve doubts which cannot be solved by the team members. At the end of the program each StudyPod needs to submit a project or a propsal for a paper that showcases their learnings during the program.
 
-## SP03\_\_
+## SP03\2\5
 
-SP03\_\_ is an amazing team built by the efforts of its team members and the support of its mentors
+SP03\2\5 is an amazing team built by the efforts of its team members and the support of its mentors
 
 ### Team
 
-Person1<br>
-Person2<br>
-Person3<br>
-Person4<br>
+Surbhi Sharma<br>
+Anushka Verma<br>
+Palak Sharda<br>
+Nitya<br>
 
 ### Mentor
 
-Mentor1
+Divya Chopra<br>
 
 ## Weekly/Monthly Logs
 
@@ -83,23 +83,22 @@ Date:
 
   Team Member1:
 
-    What have you done in the week:
-    Blockers/Challenegs you have faced:
+    Python,AI/ML,Some Assignments
+    
 
   Team Member2:
 
-    What have you done in the week:
-    Blockers/Challenegs you have faced:
+    Python,Basics of AI/ML,Some Assignments
+
 
   Team Member3:
 
-    What have you done in the week:
-    Blockers/Challenegs you have faced:
+    Not Active
+    
 
   Team Member4:
 
-    What have you done in the week:
-    Blockers/Challenegs you have faced:
+    Not Active
 ```
 
 ### Logs
@@ -110,7 +109,7 @@ Date:
 
 ## Project
 
-This section contains the details about the different projects made by the team.
+House Security made by SP0325(Surbhi Sharma and Anushka Verma),which is based on Face Recognition[Neural Network],Deep Learning. 
 
 ### Project 1
 
@@ -124,8 +123,8 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## Contact
 
 <!-- Share your contact details. Preferrably these details
-Email
-LinkedIn
+Email :-surbhisharma020901@gmail.com,anushkaverma2325@gamil.com
+LinkedIn :-https://www.linkedin.com/in/surbhi-sharma-0a1a51227,https://www.linkedin.com/in/anushka-verma-1aa224239
 GitHub
 
 Note: Do not share your mobile number as it will expose it over the internet
