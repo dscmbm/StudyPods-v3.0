@@ -98,12 +98,12 @@ This section contains the details about the different projects made by the team.
 
 ### Project 1
 
-Stock Prediction Model:-
+Stock Prediction Model <br>
 Stock Prediction project using machine learning involves collecting and preprocessing historical stock market data, selecting relevant features, choosing a machine learning algorithm, training and evaluating the model, and deploying it to predict future stock prices.
 
 ### Project 2
 
-Book Recommendation system:
+Book Recommendation system <br>
 
 Created A book recommendation system using the K-Nearest Neighbors (KNN). It involves nvolves collecting book information and user ratings, preprocessing the data, fitting a KNN model, predicting ratings for the testing set, evaluating the model's performance, and recommending books to users based on the model's predictions.
 
