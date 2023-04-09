@@ -3,9 +3,9 @@
 [![MIT License][license-shield]][license-url]
 [![Discord][discord-shield]][discord-url]
 
-<h1 align="center"> SP03__ </h1>
+<h1 align="center"> SP0315_ </h1>
 
-This is the folder for team SP03\_\_ participating in StudyPods v3.0 by Google Developers Student Club MBM.
+This is the folder for team SP0315\_\_ participating in StudyPods v3.0 by Google Developers Student Club MBM.
 
 <!-- <details open="open">
   <summary>Table of Contents</summary>
@@ -14,7 +14,7 @@ This is the folder for team SP03\_\_ participating in StudyPods v3.0 by Google D
       <a href="#about-studypods-v3.0">About StudyPods v3.0</a>
     </li>
     <li>
-      <a href="#sp0301">SP03__</a>
+      <a href="#sp0301">SP0315</a>
       <ul>
         <li><a href="#team">Team</a></li>
         <li><a href="#mentor">Mentor</a></li>
@@ -55,20 +55,20 @@ This is the folder for team SP03\_\_ participating in StudyPods v3.0 by Google D
 
 Study pods is an initiative taken by DSC MBM to promote peer-to-peer learning among the students with a notion that says “Learn Together, Build Together”.The program is designed to offer participants a good exposure of technology and the technical world. It is an approx one month-long program that connects like-minded participants interested in a particular domain to come together, learn together and then build together. StudyPod mentors assist participants with the roadmap, resources, take weekly updates and solve doubts which cannot be solved by the team members. At the end of the program each StudyPod needs to submit a project or a propsal for a paper that showcases their learnings during the program.
 
-## SP03\_\_
+## SP03015\_\_
 
-SP03\_\_ is an amazing team built by the efforts of its team members and the support of its mentors
+SP0315\_\_ is an amazing team built by the efforts of its team members and the support of its mentors
 
 ### Team
 
-Person1<br>
-Person2<br>
-Person3<br>
-Person4<br>
+mohit kumar jindal<br>
+sachin <br>
+bhaskar<br>
+sohan<br>
 
 ### Mentor
 
-Mentor1
+Mentor1 divya chopra boss
 
 ## Weekly/Monthly Logs
 
@@ -83,22 +83,22 @@ Date:
 
   Team Member1:
 
-    What have you done in the week:
-    Blockers/Challenegs you have faced:
+    What have you done in the week:python and related libraries and some algorithms
+    Blockers/Challenegs you have faced:how to start and in algorithms
 
   Team Member2:
 
-    What have you done in the week:
-    Blockers/Challenegs you have faced:
+    What have you done in the week:python and libraries
+    Blockers/Challenegs you have faced:installing pycharm
 
   Team Member3:
 
-    What have you done in the week:
+    What have you done in the week:python
     Blockers/Challenegs you have faced:
 
   Team Member4:
 
-    What have you done in the week:
+    What have you done in the week:python
     Blockers/Challenegs you have faced:
 ```
 
@@ -110,12 +110,12 @@ Date:
 
 ## Project
 
-This section contains the details about the different projects made by the team.
+we made a IPL match pridictor which predict the match 
 
 ### Project 1
 
 <!-- Add the summary of the project along with the link to the markdown file for the project. Check out the Sample Project.md to get the idea of the structure of the Project file.
--->
+--> Here we use pandas library  and matplotlib  library and here we use linearregression and piplines 
 
 ## License
 
@@ -124,9 +124,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## Contact
 
 <!-- Share your contact details. Preferrably these details
-Email
-LinkedIn
-GitHub
+Email mohitjindal2002@gmail.com
+LinkedIn--https://www.linkedin.com/in/mohit-jindal-a47788227
+GitHub--https://github.com/mohit8740
 
 Note: Do not share your mobile number as it will expose it over the internet
 -->
