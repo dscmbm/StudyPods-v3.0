@@ -70,7 +70,7 @@ SP0317 is an amazing team built by the efforts of its team members and the suppo
 
 #### Chirag Sharma
 
-## Weekly/Monthly Logs
+## Weekly Logs
 
 Weekly Logs is an important activity planned by DSC MBM to motivate participants to note their progress and prepare the log for future generation to plan accordingly.
 ### Week-1: Basic Python<br>
