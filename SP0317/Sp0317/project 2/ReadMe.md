@@ -53,8 +53,9 @@ The Stock Prediction Using Deep Learning project aims to develop a predictive mo
 5. Deep learning or more specifically Neural Networks 
 
 ### Usage
+The project utilizes a dataset of historical stock prices and news headlines to train a Long Short-Term Memory (LSTM) neural network, which is a type of recurrent neural network (RNN). The LSTM network is used to make daily predictions of stock prices based on the input data.Use simply change the data that you want either you can download or you can use one of the many given datsets.<br>
 Just enter the stock Name and it will show you the total analysis of that stock. <br>
-https://chiragksharma-stock-prediction-app-2r6lp8.streamlit.app
+https://chiragksharma-stock-prediction-app-2r6lp8.streamlit.app (Example Made by our Mentor)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
