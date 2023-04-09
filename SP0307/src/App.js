@@ -73,7 +73,7 @@ export default () => {
               <>
                 {customSearch && (
                   <Box my={2} display="flex" justifyContent="flex-end">
-                    <Button onClick={fetchJobs}>
+                    <Button color="primary" onClick={fetchJobs}>
                       <closeIcon size={20} />
                       Custom Search
                     </Button>
