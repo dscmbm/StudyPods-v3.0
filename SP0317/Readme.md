@@ -99,6 +99,7 @@ This section contains the details about the different projects made by the team.
 ### Project 1
 
 Stock Prediction Model <br>
+
 Stock Prediction project using machine learning involves collecting and preprocessing historical stock market data, selecting relevant features, choosing a machine learning algorithm, training and evaluating the model, and deploying it to predict future stock prices.
 
 ### Project 2
