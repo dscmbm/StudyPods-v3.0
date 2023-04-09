@@ -3,9 +3,9 @@
 [![MIT License][license-shield]][license-url]
 [![Discord][discord-shield]][discord-url]
 
-<h1 align="center"> SP03__ </h1>
+<h1 align="center"> SP0317 </h1>
 
-This is the folder for team SP03\_\_ participating in StudyPods v3.0 by Google Developers Student Club MBM.
+This is the folder for team SP0317 participating in StudyPods v3.0 by Google Developers Student Club MBM.
 
 <!-- <details open="open">
   <summary>Table of Contents</summary>
@@ -55,58 +55,46 @@ This is the folder for team SP03\_\_ participating in StudyPods v3.0 by Google D
 
 Study pods is an initiative taken by DSC MBM to promote peer-to-peer learning among the students with a notion that says “Learn Together, Build Together”.The program is designed to offer participants a good exposure of technology and the technical world. It is an approx one month-long program that connects like-minded participants interested in a particular domain to come together, learn together and then build together. StudyPod mentors assist participants with the roadmap, resources, take weekly updates and solve doubts which cannot be solved by the team members. At the end of the program each StudyPod needs to submit a project or a propsal for a paper that showcases their learnings during the program.
 
-## SP03\_\_
+## SP0317
 
-SP03\_\_ is an amazing team built by the efforts of its team members and the support of its mentors
+SP0317 is an amazing team built by the efforts of its team members and the support of its mentors
 
 ### Team
 
-Person1<br>
-Person2<br>
-Person3<br>
-Person4<br>
+#### Jay Prakash Choudhary
+#### Praveen Batesar
+#### Ritika Solanki
+#### Honey Agrawal 
 
 ### Mentor
 
-Mentor1
+#### Chirag Sharma
 
-## Weekly/Monthly Logs
+## Weekly Logs
 
 Weekly Logs is an important activity planned by DSC MBM to motivate participants to note their progress and prepare the log for future generation to plan accordingly.
+### Week-1: Basic Python<br>
+=> Learned Python from scratch.<br> 
+=> Practised problems on Codewars daily <br>
+=> Practised various problems on Hackerrank<br>
+=> Learned Python from books For ex. Python crash course<br>
+### Week-2: Data Science(Data Cleaning,Data Extraction etc)<br>
+=> We started with Data analysis part on kaggle datasets <br>
+=> Playing with data on google meet <br>
+=> Also did the EDA part of a Playground series on kaggle<br>
+### Week-3: AI/Ml
+=> We started with Linear regression on the first day <br>
+=> Got to know how to apply Linear regression on real time data<br>
+=> Vizualized how various machine learning algo's work<br>
+### Week-4: Project
+project 1: Book Recommendation system<br>
+project 2: Stock prediction system using Deep learning<br>
+project 3: Cross-Zero Game using python <br>
+project 4: QR code detection<br>
 
-### Format
+## Technolgy used 
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) ![PyCharm](https://img.shields.io/badge/pycharm-143?style=for-the-badge&logo=pycharm&logoColor=black&color=black&labelColor=green) ![Notepad++](https://img.shields.io/badge/Notepad++-90E59A.svg?style=for-the-badge&logo=notepad%2b%2b&logoColor=black) ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)  ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)  ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![SciPy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) 
 
-The log should follow this structure
-
-```
-Date:
-
-  Team Member1:
-
-    What have you done in the week:
-    Blockers/Challenegs you have faced:
-
-  Team Member2:
-
-    What have you done in the week:
-    Blockers/Challenegs you have faced:
-
-  Team Member3:
-
-    What have you done in the week:
-    Blockers/Challenegs you have faced:
-
-  Team Member4:
-
-    What have you done in the week:
-    Blockers/Challenegs you have faced:
-```
-
-### Logs
-
-<!-- ## Resources -->
-
-<!-- ## Roadmap -->
 
 ## Project
 
@@ -114,19 +102,42 @@ This section contains the details about the different projects made by the team.
 
 ### Project 1
 
-<!-- Add the summary of the project along with the link to the markdown file for the project. Check out the Sample Project.md to get the idea of the structure of the Project file.
--->
+Stock Prediction Model <br>
+
+Stock Prediction project using machine learning involves collecting and preprocessing historical stock market data, selecting relevant features, choosing a machine learning algorithm, training and evaluating the model, and deploying it to predict future stock prices.
+
+### Project 2
+
+Book Recommendation system <br>
+
+Created A book recommendation system using the K-Nearest Neighbors (KNN). It involves nvolves collecting book information and user ratings, preprocessing the data, fitting a KNN model, predicting ratings for the testing set, evaluating the model's performance, and recommending books to users based on the model's predictions.
+
+### Project 3
+
+Tic-Tac-Toe game
+
+This is a Tic Tac Toe game built using Python and Pygame. It allows the player to play against the computer or against another player. The computer uses the minimax algorithm to make moves. 
+
+
+### Project 4
+
+QR Code Scanner and Reader
+
+This project is a QR code scanner and reader that can read QR codes from images and live camera feeds.
 
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
-
+👨‍🏫 - Mentor: https://www.linkedin.com/in/chirag-kumar-sharma-5286b51b8/<br>
+👨‍👧‍👦 - Team:<br>
+https://www.linkedin.com/in/jay-prakash-choudhary/<br>
+https://www.linkedin.com/in/𝙋𝙧𝙖𝙫𝙚𝙚𝙣-𝘽𝙖𝙩𝙚𝙨𝙖𝙧-940830227/<br>
+https://www.linkedin.com/in/honey-agrawal-24a1a5228/<br>
+https://www.linkedin.com/in/ritika-solanki-a362ba222<br>
 <!-- Share your contact details. Preferrably these details
-Email
-LinkedIn
-GitHub
+
 
 Note: Do not share your mobile number as it will expose it over the internet
 -->
