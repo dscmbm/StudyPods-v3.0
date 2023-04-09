@@ -1,0 +1,40 @@
+
+
+select {
+  width: 300px;
+  height: 50px;
+  margin-left: 24px;
+  font-family: "calibri";
+  padding-left: 10px;
+}
+
+select:hover{
+  border-radius: 20px;
+}
+
+input{
+  width: 200px;
+  height: 50px;
+  margin-left: 250px;
+  border-radius: 50px;
+  font-family: "calibri";
+  font-size: 25px;
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+}
+
+input:hover{
+  border-radius: 5px;
+  background-color: red;
+  color:white;
+}
+
+table{
+  width: 700px;
+  align-items: center;
+}
+
+tr {
+  height: 100px;
+}

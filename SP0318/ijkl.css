@@ -1,0 +1,63 @@
+
+body {
+  font-family:"calibri";
+}
+
+table{
+  border:1px solid black;
+  width: 90%;
+  align-self: center;
+  margin:0px;
+  border-spacing: 0px;
+  background-color: lightgrey;
+}
+
+tr {
+    height:100px;
+    border:1px solid black;
+}
+
+td {
+    border:1px solid black;
+    padding-left: 10px;
+}
+
+#a2 {
+  width:80%;
+  height: 100px;
+}
+
+#a1 {
+  height: 50px;
+}
+
+#a4{
+  height:50px;
+  font-size: 30px;
+}
+
+#a5{
+  height:50px;
+  font-size: 30px;
+}
+
+h1 {
+  height: 20px;
+}
+
+button {
+  width:50%;
+  margin-left: 45px;
+  height: 40px;
+  background: green;
+  border:2px solid black;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+button:hover{
+  border:2px solid black;
+  color:white;
+  border-radius: 10px;
+}
