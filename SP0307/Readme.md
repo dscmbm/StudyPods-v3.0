@@ -3,9 +3,9 @@
 [![MIT License][license-shield]][license-url]
 [![Discord][discord-shield]][discord-url]
 
-<h1 align="center"> SP03__ </h1>
+<h1 align="center"> SP0307 </h1>
 
-This is the folder for team SP03\_\_ participating in StudyPods v3.0 by Google Developers Student Club MBM.
+This is the folder for team SP0307 participating in StudyPods v3.0 by Google Developers Student Club MBM.
 
 <!-- <details open="open">
   <summary>Table of Contents</summary>
@@ -55,20 +55,20 @@ This is the folder for team SP03\_\_ participating in StudyPods v3.0 by Google D
 
 Study pods is an initiative taken by DSC MBM to promote peer-to-peer learning among the students with a notion that says “Learn Together, Build Together”.The program is designed to offer participants a good exposure of technology and the technical world. It is an approx one month-long program that connects like-minded participants interested in a particular domain to come together, learn together and then build together. StudyPod mentors assist participants with the roadmap, resources, take weekly updates and solve doubts which cannot be solved by the team members. At the end of the program each StudyPod needs to submit a project or a propsal for a paper that showcases their learnings during the program.
 
-## SP03\_\_
+## SP0307
 
-SP03\_\_ is an amazing team built by the efforts of its team members and the support of its mentors
+SP0307 is an amazing team built by the efforts of its team members and the support of its mentors
 
 ### Team
 
-Person1<br>
-Person2<br>
-Person3<br>
-Person4<br>
+Abhishek Choudhary<br>
+Mahesh Bharti<br>
+Dhruvi Jain<br>
+Parineeta Borana<br>
 
 ### Mentor
 
-Mentor1
+Monil Goyal
 
 ## Weekly/Monthly Logs
 
@@ -110,12 +110,16 @@ Date:
 
 ## Project
 
-This section contains the details about the different projects made by the team.
+The project involves creating a job posting platform that utilizes Firebase as the backend to upload and fetch jobs. The platform is built using ReactJS, JavaScript, and Material UI. With this platform, users can create and job seekers can apply for jobs posted on the platform.
 
-### Project 1
+Firebase is a popular backend platform that allows users to store and sync data in real-time. It is easy to use and provides a range of services, including authentication, database management, and hosting.
 
-<!-- Add the summary of the project along with the link to the markdown file for the project. Check out the Sample Project.md to get the idea of the structure of the Project file.
--->
+ReactJS is a popular JavaScript library used for building user interfaces. It provides a declarative approach to building UI components and manages the state of the application. ReactJS enables developers to build reusable components that can be used across the entire application.
+
+JavaScript is a programming language that is used for both front-end and back-end development. It is used to add interactivity to web pages and provides the logic for web applications. JavaScript enables developers to build complex applications with dynamic user interfaces.
+
+Material UI is a React-based UI library that provides pre-built components for creating beautiful and responsive user interfaces. Material UI is designed to be easy to use and provides a range of customization options. It allows developers to build responsive and accessible user interfaces with ease.
+
 
 ## License
 
@@ -123,13 +127,11 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-<!-- Share your contact details. Preferrably these details
-Email
-LinkedIn
-GitHub
 
-Note: Do not share your mobile number as it will expose it over the internet
--->
+Email: (1)lbjkingabhishek@gmail.com (2)sajarakings@gmail.com (3)dhruvijain916@gmail.com (4)boranaparineeta@gmail.com
+LinkedIn: (1)https://www.linkedin.com/in/abhishek-choudhary-2232a8202 (2)https://www.linkedin.com/in/mahesh-bharti-b28b07223 (3)NA (4)https://www.linkedin.com/in/parineeta-borana-234981238/
+GitHub: (1)https://github.com/AbhishekChoudhary23 (2)https://github.com/maheshexample (3)https://github.com/Dhruvi1102 (4)NA
+
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
