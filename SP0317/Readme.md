@@ -80,31 +80,8 @@ Weekly Logs is an important activity planned by DSC MBM to motivate participants
 
 ### Format
 
-The log should follow this structure
 
-```
-Date:
 
-  Team Member1:
-
-    What have you done in the week:
-    Blockers/Challenegs you have faced:
-
-  Team Member2:
-
-    What have you done in the week:
-    Blockers/Challenegs you have faced:
-
-  Team Member3:
-
-    What have you done in the week:
-    Blockers/Challenegs you have faced:
-
-  Team Member4:
-
-    What have you done in the week:
-    Blockers/Challenegs you have faced:
-```
 
 ### Logs
 
