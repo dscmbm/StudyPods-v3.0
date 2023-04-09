@@ -1,0 +1,159 @@
+body {
+	color: #333;
+	font-family: Arial, sans-serif;
+	background-image: url('image.jpeg');
+	background-repeat: no-repeat; 
+	background-attachment: fixed;
+    background-size: cover;
+}
+.container {
+	max-width: 600px;
+	margin: 0 auto;
+	text-align: center;
+}
+h1 {
+
+	font-size: 36px;
+	margin-top: 160px;
+	margin-bottom: 30px;
+	color: #000000;
+}
+h2{
+	text-align: center;
+    color: black;
+    font-family: inherit
+}
+.timer {
+	border: 13px solid black;
+	border-radius: 50%;
+	width: 300px;
+	height: 300px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.time {
+	font-size: 96px;
+	font-weight: bold;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color:black;
+}
+
+.buttons {
+	position: absolute;
+    bottom: -39px;
+    left: 50%;
+    right: -10px;
+    height: 0px;
+    transform: translateX(-50%);
+    left: 122px;
+    width: 600px;
+    top: 326px;
+    left: 143px;
+	color: black;
+	
+}
+
+button {
+	right: 14px;
+    background-color: #000000;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 33px;
+    cursor: pointer;
+    font-size: 26px;
+    padding: 13px;
+    position: relative;
+    left: 24px;
+    top: 35px;
+	background-color: rgb(0, 0, 0);
+	color: white;
+}
+
+@media only screen and (max-width: 500px){
+	body {
+		background-color: #269397;
+		color: #333;
+		font-family: Arial, sans-serif;
+	}
+	.container {
+		position: relative;
+		top: 200px;
+		bottom: 300px;
+		max-width: 600px;
+		margin: 0 auto;
+		text-align: center;
+		align-items: center;
+		right: 300px;
+		color: black;
+	}
+	h1 {
+	
+		font-size: 36px;
+		margin-top: 750px;
+		margin-bottom: 30px;
+		color: #ffffff;
+	}
+	.timer {
+		border: 13px solid #f9f7f7;
+		border-radius: 50%;
+		width: 300px;
+		height: 300px;
+		margin: 0 auto;
+		position: relative;
+	}
+	
+	.time {
+		font-size: 96px;
+		font-weight: bold;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		color:rgb(254, 254, 254);
+	}
+	
+	.buttons {
+		position: absolute;
+		bottom: -39px;
+		left: 50%;
+		right: -10px;
+		height: 0px;
+		transform: translateX(-50%);
+		left: 122px;
+		width: 600px;
+		top: 326px;
+		left: 143px;
+		color: black;
+		
+	}
+	
+	button {
+		right: 14px;
+		background-color: #000000;
+		color: #000000;
+		padding: 10px 20px;
+		border: none;
+		border-radius: 5px;
+		margin-right: 33px;
+		cursor: pointer;
+		font-size: 26px;
+		padding: 13px;
+		position: relative;
+		left: 24px;
+		top: 35px;
+		background-color: rgb(0, 0, 0);
+		color: white;
+	}
+}
+
+
+
+button:hover {
+	color: #d44a4a;
+}
