@@ -1,0 +1,257 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* Navbar */
+#navbar {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+#navbar::before {
+    content: "";
+    background-color: rgb(12, 4, 40);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.4;
+
+}
+
+/* Navbar logo and image */
+#logo {
+    margin: 10px 30px;
+
+
+}
+
+#logo img {
+    height: 80px;
+    margin: 0px 0px;
+}
+
+
+/* Navbar list styling */
+#navbar ul {
+    display: flex;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.4rem;
+}
+
+#navbar ul li a {
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+
+}
+
+#navbar ul li a:hover {
+    color: black;
+    background-color: aqua;
+}
+
+/* Home Section */
+#home {
+    display: flex;
+    flex-direction: column;
+    height: 550px;
+    padding: 0px 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before {
+    content: "";
+    background: url(BG.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 85%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+#home h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+
+#home p {
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Bree Serif', serif;
+}
+
+/* Services section */
+#services {
+    margin: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#services .box {
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 3px 10px;
+    border-radius: 27px;
+    background-color: rgb(233, 228, 228);
+}
+
+#services .box img {
+    height: 158px;
+    display: block;
+    margin: auto;
+}
+
+#services .box p {
+    font-family: 'Bree Serif', serif;
+
+}
+
+/* Partners */
+#packagesec {
+    height: 340px;
+    font-family: 'Bree Serif', serif;
+
+}
+
+#packages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#packages img {
+    height: 130px;
+    display: block;
+    margin: auto;
+
+}
+
+.packageitem {
+    padding: 34px;
+    position: relative;
+    margin: 3px 10px;}
+
+#packagesec::before {
+    content: "";
+    position: absolute;
+    background: url(BG2.jpg) no-repeat center center/cover;
+    width: 100%;
+    height: 50%;
+    z-index: -1;
+    opacity: 1;
+}
+
+/* Contact section */
+#contact {
+    position: relative;
+    padding: 60px;
+}
+
+#contact::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url(Contact.jpg) no-repeat center center/cover;
+
+}
+
+#contactbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+
+#contactbox input,
+#contactbox textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+}
+
+#contactbox form {
+    width: 40%;
+}
+
+#contactbox label {
+    font-size: 1.3rem;
+    font-family: 'Bree Serif', serif;
+
+}
+
+
+footer {
+    background: black;
+    color: white;
+    padding: 9px 20px;
+}
+
+/* Utility class */
+.hprimary {
+    font-family: 'Bree Serif', serif;
+    font-size: 3.8rem;
+    padding: 12px;
+}
+
+.hprimary2 {
+    font-family: 'Bree Serif', serif;
+    font-size: 3.8rem;
+    padding: 12px;
+    color: white;
+}
+
+.hsecondary {
+    font-family: 'Bree Serif', serif;
+    font-size: 1.8rem;
+    padding: 12px;
+}
+
+.hsecondary2 {
+    font-family: 'Bree Serif', serif;
+    font-size: 1.8rem;
+    padding: 12px;
+    color: white;
+}
+
+.btn {
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.center {
+    text-align: center;
+}
