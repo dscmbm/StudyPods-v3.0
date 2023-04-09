@@ -3,9 +3,9 @@
 [![MIT License][license-shield]][license-url]
 [![Discord][discord-shield]][discord-url]
 
-<h1 align="center"> SP03__ </h1>
+<h1 align="center"> SP0313 </h1>
 
-This is the folder for team SP03\_\_ participating in StudyPods v3.0 by Google Developers Student Club MBM.
+This is the folder for team SP0313 participating in StudyPods v3.0 by Google Developers Student Club MBM.
 
 <!-- <details open="open">
   <summary>Table of Contents</summary>
@@ -14,10 +14,10 @@ This is the folder for team SP03\_\_ participating in StudyPods v3.0 by Google D
       <a href="#about-studypods-v3.0">About StudyPods v3.0</a>
     </li>
     <li>
-      <a href="#sp0301">SP03__</a>
+      <a href="#sp0301">SP0313</a>
       <ul>
-        <li><a href="#team">Team</a></li>
-        <li><a href="#mentor">Mentor</a></li>
+        <li><a href="#team">Team sp3013</a></li>
+        <li><a href="#mentor">Anurag Gupta</a></li>
       </ul>
     </li>
     <li>
@@ -55,20 +55,20 @@ This is the folder for team SP03\_\_ participating in StudyPods v3.0 by Google D
 
 Study pods is an initiative taken by DSC MBM to promote peer-to-peer learning among the students with a notion that says “Learn Together, Build Together”.The program is designed to offer participants a good exposure of technology and the technical world. It is an approx one month-long program that connects like-minded participants interested in a particular domain to come together, learn together and then build together. StudyPod mentors assist participants with the roadmap, resources, take weekly updates and solve doubts which cannot be solved by the team members. At the end of the program each StudyPod needs to submit a project or a propsal for a paper that showcases their learnings during the program.
 
-## SP03\_\_
+## SP0313
 
-SP03\_\_ is an amazing team built by the efforts of its team members and the support of its mentors
+SP0313 is an amazing team built by the efforts of its team members and the support of its mentors
 
 ### Team
 
-Person1<br>
-Person2<br>
-Person3<br>
-Person4<br>
+Mansi Gupta<br>
+Gunjan Garg<br>
+Maya Choudhary<br>
+Tripti Vyas<br>
 
 ### Mentor
 
-Mentor1
+Anurag Gupta
 
 ## Weekly/Monthly Logs
 
@@ -81,32 +81,32 @@ The log should follow this structure
 ```
 Date:
 
-  Team Member1:
+  Team Mansi Gupta:
 
-    What have you done in the week:
-    Blockers/Challenegs you have faced:
+    What have you done in the week:Created a calculator, To-do list and homepage using HTML, CSS, Javascript
+    Blockers/Challenegs you have faced:In making the calculator responsive, animations in javascript, local storage problem.
 
-  Team Member2:
+  Team Gunjan Garg:
 
-    What have you done in the week:
-    Blockers/Challenegs you have faced:
+    What have you done in the week:Created a music webpage.
+    Blockers/Challenegs you have faced:In making the webpage responsive, javascript concepts.
 
-  Team Member3:
+  Team Maya Choudhary:
 
-    What have you done in the week:
-    Blockers/Challenegs you have faced:
+    What have you done in the week:Created a Weather app.
+    Blockers/Challenegs you have faced:faced problem in fetching api.
 
-  Team Member4:
+  Team Tripti Vyas:
 
-    What have you done in the week:
-    Blockers/Challenegs you have faced:
+    What have you done in the week:Created a chitchat design, designed the about page.
+    Blockers/Challenegs you have faced:not able to add javascrpit in chitchat, making the page responsive.
 ```
 
 ### Logs
 
-<!-- ## Resources -->
+<!-- ## udemy Jonas javascript course -->
 
-<!-- ## Roadmap -->
+<!-- ## learnt basics of javascript, css and then started working on homepage-->
 
 ## Project
 
@@ -124,9 +124,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## Contact
 
 <!-- Share your contact details. Preferrably these details
-Email
-LinkedIn
-GitHub
+mansigupta242002@gmail.com
+https://www.linkedin.com/in/mansi-gupta-93211921b/
+https://github.com/MansiGupta24
 
 Note: Do not share your mobile number as it will expose it over the internet
 -->

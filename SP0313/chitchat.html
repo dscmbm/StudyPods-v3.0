@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>chitchat</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="chitchat.js">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="stylesheet" href="chitchat.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+
+     <a href="index.html"
+      ><img class="Home" src="./imgs/home1.png" alt="Home" />
+    </a>
+      <!-- <h3>Wee Chat</h3> -->
+      <div class="row justify-content-center h-100">
+        
+        <div class="col-4 col-xl-3 chat">
+          <div class="card">
+            <div class="card-header">
+              <div class="input-group">
+                <input type="text" id="search" placeholder="friends" />
+                <div class="input-group-prepend">
+                  <span id="search-icon" class="input-group"><i class="fas fa-search"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="m19.6 21l-6.3-6.3q-.75.6-1.725.95Q10.6 16 9.5 16q-2.725 0-4.612-1.887Q3 12.225 3 9.5q0-2.725 1.888-4.613Q6.775 3 9.5 3t4.613 1.887Q16 6.775 16 9.5q0 1.1-.35 2.075q-.35.975-.95 1.725l6.3 6.3ZM9.5 14q1.875 0 3.188-1.312Q14 11.375 14 9.5q0-1.875-1.312-3.188Q11.375 5 9.5 5Q7.625 5 6.312 6.312Q5 7.625 5 9.5q0 1.875 1.312 3.188Q7.625 14 9.5 14Z"/></svg></i></span>
+                </div>
+              </div>
+            </div>
+            <div class="card-body contacts_body">
+              <ul class="contacts">
+                <li class="people">
+                  <div class="frens">
+                    <div class="profile">
+                     <img class="rounded-circle user_img" alt="" src="https://images.unsplash.com/photo-1457449940276-e8deed18bfff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cHJvZmlsZXxlbnwwfHwwfHw%3D&w=1000&q=80" />
+
+                      <!-- <img src="" alt="#" /> <span class="online_icon"></span> -->
+                    </div>
+                    <div class="contact_info">
+                      <span>Sam</span>
+                      <p>last seen 2h ago</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="people">
+                  <div class="frens">
+                    <div class="profile">
+                      <img class="rounded-circle user_img" src="https://qph.cf2.quoracdn.net/main-qimg-217015358349186e0e382cb15c5d7c63-lq" alt="" /> <span class="online-icon"></span>
+                    </div>
+                    <div class="contact_info">
+                      <span>John</span>
+                      <p>last seen 6m ago</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="people">
+                  <div class="frens">
+                    <div class="profile">
+                      <img class="rounded-circle user_img" src="https://helostatus.com/wp-content/uploads/2021/09/2021-profile-WhatsApp-hd.jpg" alt="" /> <span class="online_icon"></span>
+                    </div>
+                    <div class="contact_info">
+                      <span>Annie</span>
+                      <p>last seen 1m ago</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="people">
+                  <div class="frens">
+                    <div class="profile">
+                      <img class="rounded-circle user_img" src="https://marketplace.canva.com/EAFEits4-uw/1/0/1600w/canva-boy-cartoon-gamer-animated-twitch-profile-photo-oEqs2yqaL8s.jpg" alt="" /> <span class="online_icon"></span>
+                    </div>
+                    <div class="contact_info">
+                      <span>Steve</span>
+                      <p>last seen 15h ago</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="people">
+                  <div class="frens">
+                    <div class="profile">
+                      <img class="rounded-circle user_img" src="https://i.pinimg.com/236x/2c/7a/98/2c7a98c905329eef258dceb1c5d1e0cd.jpg" alt="" /> <span class="online_icon"></span>
+                    </div>
+                    <div class="contact_info">
+                      <span>Lisa</span>
+                      <p>last seen 3h ago</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="card-footer"></div>
+          </div>
+        </div>
+        <div class="col-8">
+          <div class="card">
+            <div id="hidden">
+              <ul>
+                <li>Wallpaper</li>
+                <li>disappearing meassages</li>
+                <li>mute notifications</li>
+                <li>media, docs, and links</li>
+                <li>Search</li>
+              </ul>
+            </div>
+            <div class="card-header top-right">
+              <div class="d-flex bd-highlight chat">
+                <div class="col-8-card-header-img"><img  id="gdsc-dp" class="rounded-circle user_img" src="https://c4.wallpaperflare.com/wallpaper/676/293/313/programmer-wallpaper-thumb.jpg" alt=""> </div>
+                <div class="user-info">
+                  <span id="GDSC">GDSC</span>
+                  <p id="gdsc-online" >online</p>
+                </div>
+                <div class="video-cam">
+                  <div class="video">
+                  <i class="call" id="video-call">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26"><path fill="currentColor" d="M8.5 6C2.5 6 0 6.813 0 7.469V18.5c0 .641 2.5 1.5 8.5 1.5s8.5-.813 8.5-1.469V7.5C17 6.859 14.5 6 8.5 6zm16.875.031a.885.885 0 0 0-.469.157l-6.5 4.187c-.25.188-.406.498-.406.813v3.624c0 .315.156.624.406.813l6.5 4.188c.176.133 1.032.55 1.032-.813V7c0-.787-.271-.981-.563-.969z"/>
+                    </svg>
+                  </i>
+                </div>
+                <div class="phone">
+                <i class="call" id="phone-call">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M19.95 21q-3.225 0-6.287-1.438q-3.063-1.437-5.425-3.8q-2.363-2.362-3.8-5.425Q3 7.275 3 4.05q0-.45.3-.75t.75-.3H8.1q.35 0 .625.225t.325.575l.65 3.5q.05.35-.012.637q-.063.288-.288.513L7 10.9q1.05 1.8 2.625 3.375T13.1 17l2.35-2.35q.225-.225.588-.338q.362-.112.712-.062l3.45.7q.35.075.575.337q.225.263.225.613v4.05q0 .45-.3.75t-.75.3Z"/>
+                  </svg>
+                </i>
+              </div>
+                </div>
+                <!-- <span id="menu">
+                  <i id="ellipses" class="menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8"><path fill="currentColor" d="M0 3v2h2V3H0zm3 0v2h2V3H3zm3 0v2h2V3H6z"/></svg>
+                  </i>
+               </span> -->
+                <div id="options" >
+                  <!-- <button class="menu-button"> -->
+                  <span id="menu">
+                    <i id="ellipses" >
+                      <svg id="ellipses-icon" xmlns="http://www.w3.org/2000/svg" width="15" height="8" viewBox="0 0 8 8"><path fill="currentColor" d="M0 3v2h2V3H0zm3 0v2h2V3H3zm3 0v2h2V3H6z"/></svg>
+                    </i>
+                 </span>
+                <!-- </button> -->
+                  <!-- <ul id="settings-options">
+                    <li>block</li>
+                    <li>media</li>
+                    <li>mute</li>
+                  </ul> -->
+                </div>
+              </div>
+            </div>
+            <div class="card-body right-card-body">
+              
+              
+              <div id="first-text" class="d-flex justify-content-start text">
+                <div class="img-container">
+                  <img class="rounded-circle user_img" src="https://c4.wallpaperflare.com/wallpaper/676/293/313/programmer-wallpaper-thumb.jpg" alt="" /> <span class="online_icon"></span>
+                </div>
+                <div class="msg-container">
+                  Hello team spo313<span class="time">  <p>8:10 am, today</p> </span>
+                </div>
+              </div>
+              <div id="second-text" class="d-flex justify-content-end text">
+                <div class="img-container">
+                  <img class="rounded-circle user_img" src="https://st2.depositphotos.com/3369547/8161/v/950/depositphotos_81611566-stock-illustration-web-developer-design.jpg" alt="" /> <span class="online_icon"></span>
+                </div>
+                <div class="msg-container">
+                  Hola! gdsc<span class="time"><p>8:20 am, today</p></span>
+                </div>
+              </div>
+              <div id="third-text" class="d-flex justify-content-start text">
+                <div class="img-container">
+                  <img class="rounded-circle user_img" src="https://c4.wallpaperflare.com/wallpaper/676/293/313/programmer-wallpaper-thumb.jpg"" alt="" /> <span class="online_icon"></span>
+                </div>
+                <div class="msg-container">
+                  Who is your mentor?<span class="time"><p>8:30 am, today</p> </span>
+                </div>
+              </div>
+              <div class="d-flex justify-content-end text">
+                <div class="img-container">
+                  <img class="rounded-circle user_img" src="https://st2.depositphotos.com/3369547/8161/v/950/depositphotos_81611566-stock-illustration-web-developer-design.jpg" alt="" /> <span class="online_icon"></span>
+                </div>
+                <div class="msg-container">
+                  Anurag Boss<span class="time"> <p>9:00 pm, today</p> </span>
+                </div>
+              </div>
+              <div class="d-flex justify-content-start text ">
+                <div class="img-container">
+                  <img class="rounded-circle user_img" src="https://c4.wallpaperflare.com/wallpaper/676/293/313/programmer-wallpaper-thumb.jpg" alt="" /> <span class="online_icon"></span>
+                </div>
+                <div class="msg-container">
+                  So whats your project topic
+                  <span class="time"> <p>9:30 am, today</p>
+                    </span>
+                  
+                </div>
+              </div>
+              <div class="d-flex justify-content-end text">
+                <div class="img-container">
+                  <img class="rounded-circle user_img" src="https://st2.depositphotos.com/3369547/8161/v/950/depositphotos_81611566-stock-illustration-web-developer-design.jpg" alt="" /> <span class="online_icon"></span>
+                </div>
+                <div class="msg-container">
+                  Combo<span class="time"><p>9:30 am, today</p></span>
+                </div>
+              </div>
+              <div id="seventh-text" class="d-flex justify-content-start text">
+                <div class="img-container">
+                  <img class="rounded-circle user_img" src="https://c4.wallpaperflare.com/wallpaper/676/293/313/programmer-wallpaper-thumb.jpg"" alt="" /> <span class="online_icon"></span>
+                </div>
+                <div class="msg-container">
+                  That sounds great, good luck!!!<span class="time"
+                    ><p>10:am, today</p></span
+                  >
+                </div>
+              </div>
+              <div id="eight-text" class="d-flex justify-content-end text">
+                <div class="img-container">
+                  <img class="rounded-circle user_img" src="https://st2.depositphotos.com/3369547/8161/v/950/depositphotos_81611566-stock-illustration-web-developer-design.jpg" alt="" /> <span class="online_icon"></span>
+                </div>
+                <div class="msg-container">
+                  Thank you<span class="time"><p>10:12 am, today</p></span>
+                </div>
+              </div>
+            </div>
+            <div class="card-footer">
+              <div class="input-group">
+                <div class="input-group-files-send">
+                  <!-- <span class="files-send-button"></span> -->
+                    <i id="attach" class="fas fa-location-arrow ">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path fill="currentColor" d="m5.28 10.609l5.304-5.304a2.75 2.75 0 1 1 3.889 3.89l-6.364 6.364A1.25 1.25 0 1 1 6.34 13.79l5.657-5.657a.75.75 0 0 0-1.06-1.06L5.28 12.73a2.75 2.75 0 0 0 3.89 3.89l6.363-6.365a4.25 4.25 0 0 0-6.01-6.01L4.22 9.548a.75.75 0 0 0 1.06 1.06Z"/></svg>
+                    </i>
+                  </span>
+                </div>
+                <div class="typehere">
+                  <input class="text-area"
+                  cols="85"
+                  name="type-here"
+                  id="type-here"
+                  placeholder="Type your messsage..."></textarea></div>
+                
+                <div class="button-enter">
+                  <span class="msg-send-button"
+                    ><i id="enter" class="fas fa-location-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M3 20v-6l8-2l-8-2V4l19 8Z"/></svg></i
+                  ></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script src="chitchat.js"></script>
+  </body>
+</html>

@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Study Pods</title>
+    <link rel="stylesheet" href="Homepage.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="nav-bar">
+        <h1>SP0313</h1>
+        <div class="control-bar">
+          <box-icon
+            class="menu account"
+            onclick="location.href='aboutpge.html' "
+            name="user"
+          ></box-icon>
+          <box-icon class="menu" name="menu-alt-right"></box-icon>
+        </div>
+      </div>
+
+      <div class="homepageMainContainer">
+        <div class="logo-container">
+          <div class="logo">
+            <div class="mini-logo"></div>
+            <div class="semi-mini-logo"></div>
+          </div>
+
+          <div class="semi-logo"></div>
+        </div>
+
+        <div class="text-container">
+          <div>
+            <h1>Multi-tool <br />Hub</h1>
+
+            <h3>
+              Welcome to our all-in-one website, the ultimate digital hub where
+              you can unleash your online potential. With a wide range of
+              powerful apps at your fingertips, you can experience the full
+              breadth of the digital world like never before.
+            </h3>
+            <button class="discover"><span>Discover</span></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="curtain c1" style="--i: 1"></div>
+    <div class="curtain c2" style="--i: 2"></div>
+    <div class="curtain c3" style="--i: 3"></div>
+
+    <div class="discover-page">
+      <!-- <div class="return">
+        <box-icon class="ret left" name="chevron-left"></box-icon>
+
+        <box-icon class="ret right" name="chevron-right"></box-icon>
+      </div> -->
+
+      <div class="pane-container">
+        <div
+          class="pane"
+          onclick="location.href='Weather1.html' "
+          style="--j: 1"
+        >
+          <h4>01</h4>
+          <div class="txt-container">
+            <img src="./imgs/cloudy.png" alt="" />
+            <h1>Weather</h1>
+            <h3>-Weather forecasting</h3>
+            <br />
+            <span
+              >And with our accurate weather app, you can stay one step ahead of
+              Mother Nature.</span
+            >
+            <br />
+            <br />
+
+            <ul>
+              <li>Get real-time updates on weather conditions</li>
+              <li>
+                Plan ahead for outdoor activities, and stay safe during
+                inclement weather with ease.
+              </li>
+              <li>With our app, you'll always be prepared, rain or shine.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="pane" onclick="location.href='music.html' " style="--j: 2">
+          <h4>02</h4>
+          <div class="txt-container">
+            <img src="./imgs/music.png" alt="" />
+            <h1>Music</h1>
+            <h3>- Soundtrack</h3>
+            <br />
+            <span>
+              The music app features a user-friendly interface that makes it
+              easy to browse and discover new music.</span
+            >
+
+            <ul>
+              <li>It helps you find the perfect soundtrack for any mood.</li>
+              <li>You can use it to focus on work or unwind.</li>
+              <li>The music app offers a diverse range of genres.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div
+          class="pane"
+          onclick="location.href='Calculator.html' "
+          style="--j: 3"
+        >
+          <h4>03</h4>
+          <div class="txt-container">
+            <img src="./imgs/budget.png" alt="" />
+
+            <h1>Calculator</h1>
+
+            <h3>-Playing with numbers.</h3>
+            <br />
+            <span
+              >A tool for humans to do math more quickly and accurately than
+              they could ever do by hand</span
+            >
+
+            <ul>
+              <li>The calculator is fast,eeficient, and easy to use.</li>
+              <li>
+                It is perfect for crunching numbers quickly and accurately.
+              </li>
+              <li>
+                It includes basic math function like
+                addition,subtraction,multiplication..
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div
+          class="pane"
+          onclick="location.href='todolist.html' "
+          style="--j: 4"
+        >
+          <h4>04</h4>
+          <div class="txt-container">
+            <img src="./imgs/todolist.png" alt="" />
+            <h1>To-Do List</h1>
+            <h3>-Task Manager</h3>
+            <br />
+            <span
+              >Keep on top of your daily tasks and never miss a deadline again
+              with our intuitive to-do list app.
+            </span>
+
+            <ul>
+              <li>
+                Break down larger tasks into smaller ones to make them more
+                manageable.
+              </li>
+              <li>
+                Celebrate your accomplishments by checking off completed tasks
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div
+          class="pane"
+          onclick="location.href='chitchat.html' "
+          style="--j: 5"
+        >
+          <h4>05</h4>
+          <div class="txt-container">
+            <img src="./imgs/chat.png" alt="" />
+            <h1>Chit-Chat</h1>
+            <h3>-Fatest way to have real conversations</h3>
+            <br />
+            <span
+              >With our chitchat app, you can connect with like-minded
+              individuals from all corners of the world.</span
+            >
+
+            <ul>
+              <li>
+                Whether you're looking for new friends, engaging in stimulating
+                conversation, or simply seeking a supportive community, our app
+                offers a platform where you can truly be yourself.
+              </li>
+              <li>
+                You can use the app to discover new hobbies, interests, and
+                activities, as other users may introduce you to new ideas or
+                share their experiences.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const panes = document.querySelectorAll(".pane-container .pane");
+
+      for (let j = 0; j < panes.length; j++) {
+        panes[j].addEventListener("mouseover", () => {
+          panes.forEach((pane) => {
+            pane.style.background = "rgba(0,0,0,0.552)";
+          });
+          panes[j].style.background = "transparent";
+        });
+
+        panes[j].addEventListener("mouseout", () => {
+          panes.forEach((pane) => {
+            pane.style.background = "";
+          });
+          panes[j].style.background = "";
+        });
+      }
+
+      const btn = document.querySelector(".discover");
+      const curtains = document.querySelectorAll(".curtains");
+      const discover_page = document.querySelector(".discover-page");
+
+      btn.addEventListener("click", discoverPage);
+
+      function discoverPage() {
+        curtains.forEach((curtain) => {
+          curtain.classList.add("active");
+        });
+        discover_page.classList.add("active");
+      }
+
+      const back = document.querySelector(".ret.left");
+      const nxt = document.querySelector(".ret.right");
+
+      back.addEventListener("click", () => {
+        curtains.forEach((curtain) => {
+          curtain.classList.remove("active");
+        });
+        discover_page.classList.remove("active");
+      });
+
+      var index = 0;
+
+      function nxtPane() {
+        panes.forEach((pane) => {
+          pane.style.background = "rgba(0,0,0,0.552)";
+        });
+        panes[index].style.background = "transparent";
+        index++;
+
+        if (index >= panes.length) {
+          index = 0;
+        }
+      }
+
+      nxt.addEventListener("click", nxtPane);
+    </script>
+
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  </body>
+</html>

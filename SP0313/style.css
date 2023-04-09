@@ -1,0 +1,141 @@
+body {
+  background-image: url(Images/bg.png);
+  overflow: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: #ffffff;
+}
+.Home {
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  height: 30px;
+  width: 30px;
+}
+
+nav ul {
+  display: flex;
+  padding: 20px;
+}
+
+.brand img {
+  height: 90px;
+  width: 90px;
+  border-radius: 20px;
+}
+nav ul li {
+  margin-right: 439px;
+  padding: 0 17px;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+}
+.Heading {
+  font-size: 23px;
+  font-weight: bolder;
+  align-items: center;
+}
+.container {
+  color: aliceblue;
+  font-size: small;
+  height: 100vh;
+  border-radius: 15px;
+  margin: 0px 20px 0px 20px;
+}
+.bottom {
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+#ProgressBar {
+  width: 100%;
+  cursor: pointer;
+}
+.icons {
+  margin: 10px 0px;
+}
+.icons i {
+  cursor: pointer;
+  padding: 0 5px;
+}
+.songItemContainer {
+  width: 64%;
+  margin: auto;
+  margin-top: 40px;
+}
+.songItem {
+  height: 30px;
+  display: flex;
+  background-color: aliceblue;
+  width: 280px;
+  color: rgb(149, 41, 102);
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0px;
+  border-radius: 20px;
+  padding: 0 0 0 6px;
+}
+.timeStamp {
+  padding: 2px;
+}
+.songItem i {
+  padding: 8px;
+}
+.songList h1 {
+  align-items: center;
+  padding-right: 25px;
+}
+.timeStamp i {
+  cursor: pointer;
+}
+.songInfo {
+  position: absolute;
+  left: 2rem;
+  margin-top: 15px;
+}
+.songInfo img {
+  height: 10px;
+  opacity: 0;
+  transition: opacity 0.4s ease-in;
+  left: -2rem;
+  position: relative;
+}
+
+#masterSongName {
+  left: -2rem;
+  position: relative;
+}
+.songName {
+  margin: 5px;
+}
+@media only screen and (max-width: 1024px) {
+  .songItemContainer {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .songInfo {
+    position: relative;
+  }
+}
