@@ -3,7 +3,7 @@
 [![MIT License][license-shield]][license-url]
 [![Discord][discord-shield]][discord-url]
 
-<h1 align="center"> SP03__ </h1>
+<h1 align="center"> SP0315_ </h1>
 
 This is the folder for team SP03\_\_ participating in StudyPods v3.0 by Google Developers Student Club MBM.
 
@@ -61,10 +61,10 @@ SP03\_\_ is an amazing team built by the efforts of its team members and the sup
 
 ### Team
 
-Person1<br>
-Person2<br>
-Person3<br>
-Person4<br>
+mohit kumar jindal<br>
+sachin <br>
+bhaskar<br>
+sohan<br>
 
 ### Mentor
 
@@ -83,22 +83,22 @@ Date:
 
   Team Member1:
 
-    What have you done in the week:
-    Blockers/Challenegs you have faced:
+    What have you done in the week:python and related libraries and some algorithms
+    Blockers/Challenegs you have faced:how to start and in algorithms
 
   Team Member2:
 
-    What have you done in the week:
-    Blockers/Challenegs you have faced:
+    What have you done in the week:python and libraries
+    Blockers/Challenegs you have faced:installing pycharm
 
   Team Member3:
 
-    What have you done in the week:
+    What have you done in the week:python
     Blockers/Challenegs you have faced:
 
   Team Member4:
 
-    What have you done in the week:
+    What have you done in the week:python
     Blockers/Challenegs you have faced:
 ```
 
@@ -124,9 +124,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## Contact
 
 <!-- Share your contact details. Preferrably these details
-Email
-LinkedIn
-GitHub
+Email mohitjindal2002@gmail.com
+LinkedIn--https://www.linkedin.com/in/mohit-jindal-a47788227
+GitHub--https://github.com/mohit8740
 
 Note: Do not share your mobile number as it will expose it over the internet
 -->
