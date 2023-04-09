@@ -5,7 +5,7 @@
 
 <h1 align="center"> SP0315_ </h1>
 
-This is the folder for team SP03\_\_ participating in StudyPods v3.0 by Google Developers Student Club MBM.
+This is the folder for team SP0315\_\_ participating in StudyPods v3.0 by Google Developers Student Club MBM.
 
 <!-- <details open="open">
   <summary>Table of Contents</summary>
@@ -14,7 +14,7 @@ This is the folder for team SP03\_\_ participating in StudyPods v3.0 by Google D
       <a href="#about-studypods-v3.0">About StudyPods v3.0</a>
     </li>
     <li>
-      <a href="#sp0301">SP03__</a>
+      <a href="#sp0301">SP0315</a>
       <ul>
         <li><a href="#team">Team</a></li>
         <li><a href="#mentor">Mentor</a></li>
@@ -68,7 +68,7 @@ sohan<br>
 
 ### Mentor
 
-Mentor1
+Mentor1 divya chopra boss
 
 ## Weekly/Monthly Logs
 
@@ -110,12 +110,12 @@ Date:
 
 ## Project
 
-This section contains the details about the different projects made by the team.
+we made a IPL match pridictor which predict the match 
 
 ### Project 1
 
 <!-- Add the summary of the project along with the link to the markdown file for the project. Check out the Sample Project.md to get the idea of the structure of the Project file.
--->
+--> Here we use pandas library  and matplotlib  library and here we use linearregression and piplines 
 
 ## License
 
