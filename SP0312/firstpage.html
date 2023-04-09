@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POMODORO TIMER</title>
+    <link rel="stylesheet" href="firstpage.css">
+     
+</head>
+<body>
+    <audio id="myAudio">
+<source src="Beep Alarm.mp3" >
+    </audio>
+    <script src="firstpage.js" type="module"></script>  
+   <div> <img src="pomodoro logo.jpeg"></div>
+        <div class="container">
+            <h1>POMODORO TIMER</h1>
+            <div class="nav">
+                <a href="short.html" target="_blank"><button  id="shortbreak">Short break</button></a>
+               <a href="long.html" target="_blank"><button id="longbreak">Long break</button></a>
+            </div><br><br><br>
+      <div id="canvas" class="container group">
+ <div id="primaryContent" class="group">
+                <h2>Input the time in hours and click start</h2>
+                <div id="inputArea"></div>
+                <button id="break" onclick="pause()">PAUSE TIMER</button> 
+              <div> <h1 id="time">00:00:00</h1></div>
+  
+            
+</div> 
+   
+ 
+</body>
+</html>
