@@ -37,9 +37,8 @@ This is a Tic Tac Toe game built using Python and Pygame. It allows the player t
 
 
 ### Prerequisites
-
-1. Python 3.10
-2. Pygame
+  ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)<br>
+  Pygame
 
 ### Installation
 1. Clone the repository
