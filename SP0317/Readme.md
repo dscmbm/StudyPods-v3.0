@@ -78,17 +78,6 @@ Weekly Logs is an important activity planned by DSC MBM to motivate participants
 ### Week-3: AI/Ml
 ### Week-4: Project
 
-### Format
-
-
-
-
-### Logs
-
-<!-- ## Resources -->
-
-<!-- ## Roadmap -->
-
 ## Project
 
 This section contains the details about the different projects made by the team.
