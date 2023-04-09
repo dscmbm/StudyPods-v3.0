@@ -3,9 +3,9 @@
 [![MIT License][license-shield]][license-url]
 [![Discord][discord-shield]][discord-url]
 
-<h1 align="center"> SP03__ </h1>
+<h1 align="center"> SP0302 </h1>
 
-This is the folder for team SP03\_\_ participating in StudyPods v3.0 by Google Developers Student Club MBM.
+This is the folder for team SP0302 participating in StudyPods v3.0 by Google Developers Student Club MBM.
 
 <!-- <details open="open">
   <summary>Table of Contents</summary>
@@ -55,20 +55,19 @@ This is the folder for team SP03\_\_ participating in StudyPods v3.0 by Google D
 
 Study pods is an initiative taken by DSC MBM to promote peer-to-peer learning among the students with a notion that says “Learn Together, Build Together”.The program is designed to offer participants a good exposure of technology and the technical world. It is an approx one month-long program that connects like-minded participants interested in a particular domain to come together, learn together and then build together. StudyPod mentors assist participants with the roadmap, resources, take weekly updates and solve doubts which cannot be solved by the team members. At the end of the program each StudyPod needs to submit a project or a propsal for a paper that showcases their learnings during the program.
 
-## SP03\_\_
+## SP0302
 
-SP03\_\_ is an amazing team built by the efforts of its team members and the support of its mentors
+SP0302 is an amazing team built by the efforts of its team members and the support of its mentors
 
 ### Team
 
-Person1<br>
-Person2<br>
-Person3<br>
-Person4<br>
+Himesh Parashar<br>
+Vranda Manihar<br>
+Jyoti Charan<br>
 
 ### Mentor
 
-Mentor1
+Kritika Gajja
 
 ## Weekly/Monthly Logs
 
@@ -81,25 +80,29 @@ The log should follow this structure
 ```
 Date:
 
-  Team Member1:
+  Week1:
 
     What have you done in the week:
-    Blockers/Challenegs you have faced:
+    General info about flutter development:<br>
+    Learn about dart programing language and prgramming concepts:<br>
+    Created some basic dart programs and practiced.
 
-  Team Member2:
-
-    What have you done in the week:
-    Blockers/Challenegs you have faced:
-
-  Team Member3:
+  Week2:
 
     What have you done in the week:
-    Blockers/Challenegs you have faced:
+    Started flutter implementation, installation and usage:<br>
+    How development in flutter works (widgets structure)
 
-  Team Member4:
+  Week3:
 
     What have you done in the week:
-    Blockers/Challenegs you have faced:
+    Learning about flutter widgets from which an app is developed:
+
+  Week4:
+
+    What have you done in the week:
+    image and video implementation in app, animations, gradient, gridview, stackwidgets, wrap widgets:<br>
+    creating custom widgets
 ```
 
 ### Logs
@@ -110,12 +113,12 @@ Date:
 
 ## Project
 
-This section contains the details about the different projects made by the team.
 
 ### Project 1
 
 <!-- Add the summary of the project along with the link to the markdown file for the project. Check out the Sample Project.md to get the idea of the structure of the Project file.
 -->
+Created a BMI Calculator app and implemented maximum concepts that we have learned.
 
 ## License
 
