@@ -3,9 +3,9 @@
 [![MIT License][license-shield]][license-url]
 [![Discord][discord-shield]][discord-url]
 
-<h1 align="center"> SP03__ </h1>
+<h1 align="center"> SP0320 </h1>
 
-This is the folder for team SP03\_\_ participating in StudyPods v3.0 by Google Developers Student Club MBM.
+This is the folder for team SP0320 participating in StudyPods v3.0 by Google Developers Student Club MBM.
 
 <!-- <details open="open">
   <summary>Table of Contents</summary>
@@ -14,7 +14,7 @@ This is the folder for team SP03\_\_ participating in StudyPods v3.0 by Google D
       <a href="#about-studypods-v3.0">About StudyPods v3.0</a>
     </li>
     <li>
-      <a href="#sp0301">SP03__</a>
+      <a href="#sp0301">SP0320</a>
       <ul>
         <li><a href="#team">Team</a></li>
         <li><a href="#mentor">Mentor</a></li>
@@ -55,20 +55,20 @@ This is the folder for team SP03\_\_ participating in StudyPods v3.0 by Google D
 
 Study pods is an initiative taken by DSC MBM to promote peer-to-peer learning among the students with a notion that says “Learn Together, Build Together”.The program is designed to offer participants a good exposure of technology and the technical world. It is an approx one month-long program that connects like-minded participants interested in a particular domain to come together, learn together and then build together. StudyPod mentors assist participants with the roadmap, resources, take weekly updates and solve doubts which cannot be solved by the team members. At the end of the program each StudyPod needs to submit a project or a propsal for a paper that showcases their learnings during the program.
 
-## SP03\_\_
+## SP0320
 
-SP03\_\_ is an amazing team built by the efforts of its team members and the support of its mentors
+SP0320 is an amazing team built by the efforts of its team members and the support of its mentors
 
 ### Team
 
-Person1<br>
-Person2<br>
-Person3<br>
-Person4<br>
+Jitendra Parihar<br>
+Heena Kumawat<br>
+Gaurakh Nath<br>
+Ajay Dubey<br>
 
 ### Mentor
 
-Mentor1
+Anurag Gupta 
 
 ## Weekly/Monthly Logs
 
