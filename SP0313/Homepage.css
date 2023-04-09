@@ -1,0 +1,570 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgb(7, 21, 27);
+
+  overflow: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+.container {
+  position: relative;
+  height: 100vh;
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .nav-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.container .nav-bar h1 {
+  position: absolute;
+  color: white;
+  font-family: sans-serif;
+  font-size: 25px;
+  left: 0;
+  font-weight: 100;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.container .nav-bar .control-bar {
+  position: absolute;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu {
+  fill: white;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.menu .account {
+  height: 18px;
+}
+.homepageMainContainer {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}
+.logo-container {
+  /* position: absolute; */
+  height: 550px;
+  width: 50%;
+  border-radius: 50%;
+  background-color: rgb(4, 24, 31);
+  left: 0;
+
+  box-shadow: 10px 10px 35px rgba(0, 0, 0, 0.212),
+    inset 10px 10px 35px rgba(0, 0, 0, 0.329);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: animate 5s 1s linear infinite;
+}
+
+@keyframes animate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.logo-container .logo {
+  height: 350px;
+  width: 350px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: animate1 2s 1s linear infinite;
+}
+
+.logo-container .semi-logo {
+  height: 125px;
+  width: 125px;
+  border-radius: 50%;
+
+  background-color: rgb(114, 134, 134);
+
+  margin: 5px;
+}
+
+.logo-container .logo .mini-logo {
+  height: 50%;
+  width: 50%;
+  border-radius: 50%;
+
+  background-color: rgb(106, 143, 143);
+}
+
+@keyframes animate1 {
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+.logo-container .logo .semi-mini-logo {
+  height: 30%;
+  width: 30%;
+  border-radius: 50%;
+  background-color: rgb(9, 34, 46);
+  margin: 20px;
+}
+
+.container .text-container {
+  /* position: absolute; */
+  width: 50%;
+  height: 100%;
+}
+
+.text-container h1 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 900;
+  margin-top: 60px;
+  transform: translateY(100px);
+  opacity: 0;
+  animation: unveal 1s ease forwards;
+}
+
+@keyframes unveal {
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.text-container h2 {
+  color: white;
+  font-size: 70px;
+  text-transform: capitalize;
+  font-weight: 300;
+  transform: translateY(-100px);
+  opacity: 0;
+  animation: unveal 1s 100ms ease forwards;
+}
+
+.text-container h3 {
+  color: rgba(255, 255, 255, 0.808);
+  max-width: 90%;
+  margin-top: 50px;
+  transform: translateY(-50px);
+  opacity: 0;
+  animation: showbtn 1s ease forwards;
+}
+
+.text-container .discover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 150px;
+  border: none;
+  border-radius: 50px;
+  margin-top: 50px;
+  border: 2px solid white;
+  text-transform: capitalize;
+  font-size: 18px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: 0.3s ease;
+  transform: translateY(-50px);
+  opacity: 0;
+  animation: showbtn 1s ease forwards;
+  color: white;
+  background: transparent;
+}
+
+@keyframes showbtn {
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.text-container .discover:hover {
+  background-color: transparent;
+}
+
+.curtain {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(51, 111, 139);
+  transform: translateY(100%);
+}
+
+.curtain.active {
+  animation: blind 800ms ease forwards;
+  animation-delay: calc(var(--i) * 180ms);
+}
+
+.curtain.c1 {
+  opacity: 0.3;
+  background-color: rgb(110, 172, 197);
+}
+
+.curtain .c2 {
+  opacity: 0.6;
+  background-color: rgb(48, 105, 128);
+}
+
+.curtain .c3 {
+  opacity: 0.9;
+  background-color: rgb(10, 45, 59);
+}
+
+@keyframes blind {
+  to {
+    transform: translateY(-100%);
+  }
+}
+
+.discover-page {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  transform: translateY(100%);
+  background-color: rgb(6, 33, 44);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.discover-page::before {
+  position: absolute;
+  content: "";
+  height: 200px;
+  width: 200px;
+  background-color: rgba(0, 255, 255, 0.808);
+  top: 200px;
+  right: 300px;
+  filter: blur(150px);
+}
+
+.discover-page::after {
+  position: absolute;
+  content: "";
+  height: 200px;
+  width: 200px;
+  background-color: rgba(0, 255, 255, 0.63);
+  bottom: 100px;
+  left: 20px;
+  filter: blur(200px);
+  z-index: -1;
+}
+
+.discover-page.active {
+  animation: show 1s 620ms ease forwards;
+}
+
+@keyframes show {
+  to {
+    transform: translateY(0);
+  }
+}
+
+.discover-page .return {
+  position: absolute;
+  left: 0;
+  width: 10%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.534);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.discover-page .return .ret {
+  fill: white;
+  margin: auto;
+  height: 45px;
+  width: 45px;
+  padding: 10px;
+  border-radius: 50%;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.discover-page .return .ret:active {
+  transform: scale(0.98);
+}
+
+.discover-page .return .ret.left {
+  height: 50px;
+  width: 50px;
+  border: 2px solid rgb(244, 122, 255);
+}
+
+.discover-page .return .ret:hover {
+  background-color: rgba(0, 0, 0, 0.377);
+}
+
+.discover-page .pane-container {
+  /* position: absolute; */
+  /* height: 100%; */
+  width: 100%;
+  gap: 20px;
+  display: flex;
+  overflow: scroll;
+  justify-content: start;
+  align-items: center;
+  background-color: rgb(14, 32, 43);
+  padding-bottom: 50px;
+}
+
+.discover-page .pane-container .pane {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  min-height: 500px;
+  min-width: 320px;
+  border-left: 0.1px solid rgba(255, 255, 255, 0.116);
+  background-color: rgba(0, 0, 0, 0.164);
+  overflow: scroll;
+  transition: background 0.2s ease;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.discover-page .pane-container .pane::after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.116),
+    rgba(255, 255, 255, 0.055)
+  );
+  transform: rotateX(-150%);
+  filter: blur(70px);
+}
+
+.discover-page.active .pane-container .pane::after {
+  animation: shine 800ms linear;
+  animation-delay: calc(var(--j) * 440ms);
+}
+
+@keyframes shine {
+  to {
+    transform: translateX(110%);
+  }
+}
+
+.pane-container .text-container {
+  position: absolute;
+  top: 20%;
+  max-width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  transform: translateY(25px);
+  transition: transform 0.2s ease;
+}
+
+.pane-container .pane:hover .txt-container {
+  transform: translateY(0);
+}
+
+.pane-container .pane h4 {
+  font-size: 19px;
+  font-family: sans-serif;
+  border-bottom: 3px solid rgb(244, 122, 255);
+  color: white;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  letter-spacing: 1px;
+  height: 0;
+  overflow: hidden;
+  transition: 0.3s ease;
+}
+
+.pane-container .pane:hover h4 {
+  height: 25px;
+}
+
+.pane-container .pane img {
+  height: 120px;
+  transform: translateY(60px);
+  opacity: 0;
+  transition: 1s ease;
+  filter: hue-rotate(100deg);
+  mix-blend-mode: screen;
+}
+
+.pane-container .pane:hover img {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.pane-container .pane .txt-container h1 {
+  color: white;
+  font-size: 38px;
+  text-transform: capitalize;
+  transform: translateY(-100px);
+  opacity: 0;
+}
+
+.pane-container .pane .txt-container h3 {
+  position: relative;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: rgb(0, 255, 255);
+  font-weight: 100;
+  margin-top: 20px;
+}
+
+.discover-page.active .pane-container .pane .txt-container h1 {
+  animation: reveal 600ms 1.1s ease forwards;
+}
+
+@keyframes reveal {
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.pane-container .pane .txt-container span {
+  color: white;
+  margin: 35px auto;
+  transform: translateY(80px);
+  opacity: 0;
+  transition: 0.8s ease;
+}
+
+.pane-container .pane:hover .txt-container span {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.discover-page .pane .txt-container ul li {
+  position: relative;
+  color: rgb(242, 248, 250);
+  list-style: none;
+  margin-top: 6px;
+  transform: translateY(80px);
+  opacity: 0;
+  transition: 1.1s ease;
+}
+
+.discover-page .pane .txt-container ul li::before {
+  position: relative;
+  content: " ";
+  display: inline-block;
+  font-size: 15px;
+  margin-right: 5px;
+  color: rgb(255, 107, 155);
+}
+
+.pane-container .pane:hover .txt-container ul li {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.pane-container .pane .btn {
+  height: 70px;
+  width: 70%;
+  background-color: rgba(44, 151, 170, 0);
+  position: absolute;
+  bottom: 20px;
+  border: 2px solid rgb(255, 92, 155);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(100px);
+  opacity: 0;
+  transition: 0.5s ease;
+}
+
+.pane-container .pane:hover .btn {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.pane-container .pane .btn::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 0;
+  right: 0;
+  background-color: rgba(255, 128, 255, 0.432);
+  transition: 0.4s ease;
+}
+
+.pane-container .pane:hover .btn::before {
+  width: 25%;
+}
+
+.pane-container .pane .btn box-icon {
+  position: absolute;
+  right: 12px;
+  transform: translateX(-200px);
+  opacity: 0;
+  transition: 0.8s ease;
+}
+
+.pane-container .pane:hover .btn box-icon {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.pane-container .pane .btn:hover::before {
+  width: 100%;
+  background-color: rgb(247, 75, 247);
+}
+@media only screen and (max-width: 899px) {
+  .homepageMainContainer {
+    flex-direction: column;
+    height: 100%;
+    overflow: scroll;
+    margin-top: 100px;
+  }
+  .logo-container {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .container .text-container {
+    width: 100%;
+  }
+}

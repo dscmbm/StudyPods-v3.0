@@ -1,0 +1,134 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#home {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: #ffffff;
+}
+img {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  height: 30px;
+  width: 30px;
+}
+
+.page1 {
+  height: 100vh;
+  background-size: cover;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  background-image: url(images/clear.gif);
+  background-size: cover;
+  width: 100%;
+  padding: 40px 0 40px 0;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 0 40px black;
+}
+
+.location {
+  font-size: 40px;
+}
+.locationDesc {
+  margin-top: 20px;
+  font-size: 20px;
+}
+.temperature {
+  font-size: 50px;
+  padding-top: 0%;
+  padding-bottom: 3%;
+  text-transform: capitalize;
+}
+.detail {
+  line-height: 36px;
+}
+
+.search {
+  margin-top: 40px;
+}
+
+.search input {
+  border-radius: 20px;
+  width: 25vw;
+  height: auto;
+  box-shadow: 0 0 20px black;
+  text-indent: 30px;
+  padding: 8px 0 8px 0;
+}
+
+.search button {
+  border-radius: 20px;
+  height: auto;
+  padding: 8px 0 8px 0;
+  width: 5vw;
+  box-shadow: 0 0 20px black;
+  background-color: white;
+}
+
+.page2 {
+  height: 50vh;
+  background-image: linear-gradient(black, blue);
+  padding: 10%;
+}
+
+.rect {
+  background-color: white;
+  width: 80vw;
+  height: 50vh;
+  border-radius: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.forecast {
+  text-align: center;
+  width: 100%;
+  height: auto;
+  padding: 8px 0 8px 0;
+  background-color: white;
+  border-radius: 20px;
+  color: black;
+  margin-top: 16px;
+  box-shadow: 0 0 10px black;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 1024px) {
+  .search input {
+    width: 50vw;
+  }
+  .search button {
+    width: 10vw;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .box {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .temperature {
+    font-size: 60px;
+  }
+  .search {
+    left: 5%;
+  }
+  .search input {
+    width: 70vw;
+  }
+  .search button {
+    width: 15vw;
+  }
+}

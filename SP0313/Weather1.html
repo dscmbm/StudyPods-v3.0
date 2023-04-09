@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Weather1.css" />
+    <script src="Weather1.js"></script>
+    <title>Document</title>
+  </head>
+
+  <body onload="setbackground()">
+    <a href="index.html" id="home"
+      ><img class="Home" src="./imgs/home1.png" alt="Home" />
+    </a>
+    <div class="page1" id="back">
+      <div>
+        <div class="box" id="box">
+          <h1 class="location">Delhi</h1>
+          <p class="locationDesc">calm</p>
+          <h1 class="temperature">20°C</h1>
+          <p class="detail">
+            Pressure: <span class="pres">30</span> <br />
+            Humidity: <span class="hum">40</span> <br />
+            Wind Speed: <span class="wind">100</span>
+          </p>
+        </div>
+
+        <div class="search">
+          <input
+            type="text"
+            id="search-bar"
+            class="search-bar"
+            placeholder="Location"
+          />
+          <button onclick="check()">search</button>
+          <a href="Weather2.html"><div class="forecast">check forecast</div></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

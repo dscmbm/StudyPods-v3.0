@@ -1,0 +1,148 @@
+body {
+  font-family: "Roboto", sans-serif;
+
+  background-color: #0a2d3b;
+
+  background-image: linear-gradient(
+    45deg,
+    #0d3442 25%,
+    transparent 25%,
+    transparent 50%,
+    #0d3442 50%,
+    #0d3442 75%,
+    transparent 75%,
+    transparent
+  );
+
+  color: #fff;
+}
+a {
+  /* position: absolute;
+  top: 10px;
+  left: 10px; */
+  color: #ffffff;
+}
+img {
+  position: absolute;
+  top: 24px;
+  left: 10px;
+  height: 30px;
+  width: 30px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 24px;
+  color: white;
+  text-shadow: 2px 2px rgb(2, 35, 48);
+}
+
+form {
+  background-color: whitesmoke;
+  padding: 24px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 74%;
+  margin: auto;
+  margin-top: 40px;
+}
+
+input[type="text"],
+input[type="date"] {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  display: inline-block;
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 18px;
+
+  background-color: #fff;
+  color: rgb(4, 24, 31);
+
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+input[type="button"] {
+  background-color: rgb(48, 105, 128);
+  color: #fff;
+  padding: 10px 70px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 40px;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+
+input[type="button"]:hover {
+  background-color: rgb(10, 45, 59);
+  transform: scale(1.1);
+}
+
+#taskList {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 74%;
+  margin: auto;
+  padding: 24px;
+}
+
+li {
+  margin: 10px;
+  padding: 20px;
+  border-radius: 5px;
+  font-size: 24px;
+  color: rgb(4, 24, 31);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: whitesmoke;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  width: 100%;
+}
+
+.checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+  background-color: rgb(48, 105, 128);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.checkbox:checked::after {
+  content: "\2714";
+  font-size: 24px;
+  color: #fff;
+}
+
+.delete {
+  /*background-color: #f44336;
+  */
+  background-color: rgb(48, 105, 128);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+
+.delete:hover {
+  background-color: rgb(10, 45, 59);
+  transform: scale(1.1);
+}

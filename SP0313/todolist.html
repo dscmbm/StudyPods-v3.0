@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <link rel="stylesheet" href="todolist.css" />
+  </head>
+  <body>
+    <a href="index.html"
+      ><img class="Home" src="./imgs/home1.png" alt="Home" />
+    </a>
+    <h1>Todo List App</h1>
+    <form>
+      <input type="text" id="taskInput" placeholder="Add task..." />
+      <input type="date" id="dateInput" />
+      <input type="button" value="Add" onclick="addTask()" />
+    </form>
+    <ul id="taskList"></ul>
+    <script src="todolist.js"></script>
+  </body>
+</html>

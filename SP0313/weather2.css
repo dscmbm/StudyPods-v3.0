@@ -1,0 +1,173 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  height: 100%;
+}
+#home {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: #ffffff;
+  z-index: 10001;
+}
+img {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  height: 40px;
+  width: 40px;
+}
+#page {
+  height: 100vh;
+  background-size: cover;
+}
+
+.city {
+  text-align: center;
+  margin-top: 0%;
+  font-size: 60px;
+  color: rgb(249, 68, 44);
+  text-shadow: 0 0 20px rgb(0, 0, 0);
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1f 1fr;
+  grid-template-areas: "box box box box" "box box box box";
+  margin-top: 1%;
+  margin-left: 5%;
+}
+
+.box {
+  width: 20vw;
+  height: 34vh;
+  background-color: #3c3c44c7;
+  border: 1px solid #eee;
+  margin-bottom: 5%;
+  box-shadow: 0 0 40px black;
+  border-radius: 15px;
+}
+
+.main {
+  box-shadow: 0 0 80px white;
+}
+
+.day {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 30px;
+  background-color: rgba(0, 0, 0, 0.644);
+  color: white;
+}
+.icon {
+  padding-left: 40%;
+  width: 60px;
+}
+.other {
+  text-align: center;
+  color: white;
+  font-size: 10px;
+}
+
+.search {
+  position: relative;
+  left: 35%;
+  margin-top: 0.5%;
+}
+
+.search input {
+  border-radius: 20px;
+  width: 25vw;
+  height: 40px;
+  box-shadow: 0 0 20px black;
+  text-indent: 30px;
+}
+
+.search button {
+  border-radius: 20px;
+  height: 40px;
+  width: 5vw;
+  box-shadow: 0 0 20px black;
+  background-color: white;
+}
+
+@media only screen and (max-width: 1024px) {
+  #page {
+    background-size: auto;
+    height: 200vh;
+  }
+  .box {
+    height: 45vh;
+  }
+  .search {
+    left: 25%;
+  }
+  .search input {
+    width: 40vw;
+  }
+  .search button {
+    width: 8vw;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .content {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+      "box box"
+      "box box"
+      "box box"
+      "box box";
+  }
+  .box {
+    width: 40vw;
+    height: 40vh;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .content {
+    margin-left: 20%;
+    margin-top: 30%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+      "box"
+      "box"
+      "box"
+      "box"
+      "box"
+      "box"
+      "box"
+      "box"
+      "box";
+  }
+  .box {
+    width: 80%;
+  }
+  .city {
+    font-size: 20px;
+  }
+  .search {
+    left: 15%;
+    top: 1%;
+  }
+  .search input {
+    width: 50vw;
+  }
+  .search button {
+    width: 15vw;
+  }
+  #page {
+    background-size: auto;
+    height: 400vh;
+  }
+}
