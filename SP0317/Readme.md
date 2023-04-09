@@ -55,58 +55,42 @@ This is the folder for team SP03\_\_ participating in StudyPods v3.0 by Google D
 
 Study pods is an initiative taken by DSC MBM to promote peer-to-peer learning among the students with a notion that says “Learn Together, Build Together”.The program is designed to offer participants a good exposure of technology and the technical world. It is an approx one month-long program that connects like-minded participants interested in a particular domain to come together, learn together and then build together. StudyPod mentors assist participants with the roadmap, resources, take weekly updates and solve doubts which cannot be solved by the team members. At the end of the program each StudyPod needs to submit a project or a propsal for a paper that showcases their learnings during the program.
 
-## SP03\_\_
+## SP0317
 
 SP0317 is an amazing team built by the efforts of its team members and the support of its mentors
 
 ### Team
 
-Person1<br>
-Person2<br>
-Person3<br>
-Person4<br>
+#### Jay Prakash Choudhary
+#### Praveen Batesar
+#### Ritika Solanki
+#### Honey Agrawal 
 
 ### Mentor
 
-Mentor1
+#### Chirag Sharma
 
 ## Weekly/Monthly Logs
 
 Weekly Logs is an important activity planned by DSC MBM to motivate participants to note their progress and prepare the log for future generation to plan accordingly.
-
-### Format
-
-The log should follow this structure
-
-```
-Date:
-
-  Team Member1:
-
-    What have you done in the week:
-    Blockers/Challenegs you have faced:
-
-  Team Member2:
-
-    What have you done in the week:
-    Blockers/Challenegs you have faced:
-
-  Team Member3:
-
-    What have you done in the week:
-    Blockers/Challenegs you have faced:
-
-  Team Member4:
-
-    What have you done in the week:
-    Blockers/Challenegs you have faced:
-```
-
-### Logs
-
-<!-- ## Resources -->
-
-<!-- ## Roadmap -->
+### Week-1: Basic Python
+=> Learned Python from scratch. 
+=> Practised problems on Codewars daily 
+=> Practised various problems on Hackerrank
+=> Learned Python from books For ex. Python crash course
+### Week-2: Data Science(Data Cleaning,Data Extraction etc)
+=> We started with Data analysis part on kaggle datasets 
+=> Playing with data on google meet 
+=> Also did the EDA part of a Playground series on kaggle
+### Week-3: AI/Ml
+=> We started with Linear regression on the first day 
+=> Got to know how to apply Linear regression on real time data
+=> Vizualized how various machine learning algo's work
+### Week-4: Project
+project 1: Book Recommendation system
+project 2: Stock prediction system using Deep learning
+project 3: QR code detection 
+project 4: Cross-Zero Game using python
 
 ## Project
 
@@ -114,19 +98,39 @@ This section contains the details about the different projects made by the team.
 
 ### Project 1
 
-<!-- Add the summary of the project along with the link to the markdown file for the project. Check out the Sample Project.md to get the idea of the structure of the Project file.
--->
+Stock Prediction Model:-
+Stock Prediction project using machine learning involves collecting and preprocessing historical stock market data, selecting relevant features, choosing a machine learning algorithm, training and evaluating the model, and deploying it to predict future stock prices.
 
 ### Project 2
-We have prepared our dataset for modeling. We will use the nearest neighbors algorithm which is the same as K nearest which is used for clustering based on euclidian 
-distance. But here in the pivot table, we have lots of zero values and on clustering, this computing power will increase to calculate the distance of zero values so we will convert pivot table to the sparse matrix and then feed it to the model.
+
+Book Recommendation system:
+
+Created A book recommendation system using the K-Nearest Neighbors (KNN). It involves nvolves collecting book information and user ratings, preprocessing the data, fitting a KNN model, predicting ratings for the testing set, evaluating the model's performance, and recommending books to users based on the model's predictions.
+
+### Project 3
+
+Tic-Tac-Toe game
+
+This is a Tic Tac Toe game built using Python and Pygame. It allows the player to play against the computer or against another player. The computer uses the minimax algorithm to make moves. 
+
+
+### Project 4
+
+QR Code Scanner and Reader
+
+This project is a QR code scanner and reader that can read QR codes from images and live camera feeds.
 
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
-
+🥷 - Mentor: https://www.linkedin.com/in/chirag-kumar-sharma-5286b51b8/
+👨‍👧‍👦 - Team:
+https://www.linkedin.com/in/jay-prakash-choudhary/
+https://www.linkedin.com/in/𝙋𝙧𝙖𝙫𝙚𝙚𝙣-𝘽𝙖𝙩𝙚𝙨𝙖𝙧-940830227/
+https://www.linkedin.com/in/honey-agrawal-24a1a5228/
+https://www.linkedin.com/in/ritika-solanki-a362ba222
 <!-- Share your contact details. Preferrably these details
 Email
 LinkedIn
