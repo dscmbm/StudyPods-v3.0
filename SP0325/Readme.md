@@ -5,7 +5,7 @@
 
 <h1 align="center"> SP0325 </h1>
 
-This is the folder for team SP03\_\_ participating in StudyPods v3.0 by Google Developers Student Club MBM.
+This is the folder for team SP03\2\5 participating in StudyPods v3.0 by Google Developers Student Club MBM.
 
 <!-- <details open="open">
   <summary>Table of Contents</summary>
@@ -14,7 +14,7 @@ This is the folder for team SP03\_\_ participating in StudyPods v3.0 by Google D
       <a href="#about-studypods-v3.0">About StudyPods v3.0</a>
     </li>
     <li>
-      <a href="#sp0301">SP03__</a>
+      <a href="#sp0301">SP0325</a>
       <ul>
         <li><a href="#team">Team</a></li>
         <li><a href="#mentor">Mentor</a></li>
@@ -79,7 +79,7 @@ Weekly Logs is an important activity planned by DSC MBM to motivate participants
 The log should follow this structure
 
 ```
-Date:
+Date:9/April/2023
 
   Team Member1:
 
