@@ -3,9 +3,9 @@
 [![MIT License][license-shield]][license-url]
 [![Discord][discord-shield]][discord-url]
 
-<h1 align="center"> SP03__ </h1>
+<h1 align="center"> SP0316 </h1>
 
-This is the folder for team SP03\_\_ participating in StudyPods v3.0 by Google Developers Student Club MBM.
+This is the folder for team SP0316 participating in StudyPods v3.0 by Google Developers Student Club MBM.
 
 <!-- <details open="open">
   <summary>Table of Contents</summary>
@@ -14,7 +14,7 @@ This is the folder for team SP03\_\_ participating in StudyPods v3.0 by Google D
       <a href="#about-studypods-v3.0">About StudyPods v3.0</a>
     </li>
     <li>
-      <a href="#sp0301">SP03__</a>
+      <a href="#sp0316">SP0316</a>
       <ul>
         <li><a href="#team">Team</a></li>
         <li><a href="#mentor">Mentor</a></li>
@@ -55,20 +55,21 @@ This is the folder for team SP03\_\_ participating in StudyPods v3.0 by Google D
 
 Study pods is an initiative taken by DSC MBM to promote peer-to-peer learning among the students with a notion that says “Learn Together, Build Together”.The program is designed to offer participants a good exposure of technology and the technical world. It is an approx one month-long program that connects like-minded participants interested in a particular domain to come together, learn together and then build together. StudyPod mentors assist participants with the roadmap, resources, take weekly updates and solve doubts which cannot be solved by the team members. At the end of the program each StudyPod needs to submit a project or a propsal for a paper that showcases their learnings during the program.
 
-## SP03\_\_
+## SP0316
 
-SP03\_\_ is an amazing team built by the efforts of its team members and the support of its mentors
+SP0316 is an amazing team built by the efforts of its team members and the support of its mentors
 
 ### Team
 
-Person1<br>
-Person2<br>
-Person3<br>
-Person4<br>
+<br>
+Tanay Rathore
+Anushka Mathur<br>
+Vaishali Soni<br>
+Vansh Sharma<br>
 
 ### Mentor
 
-Mentor1
+Yash Mali
 
 ## Weekly/Monthly Logs
 
@@ -79,27 +80,28 @@ Weekly Logs is an important activity planned by DSC MBM to motivate participants
 The log should follow this structure
 
 ```
-Date:
+Date: 03/03/2023
 
-  Team Member1:
 
-    What have you done in the week:
-    Blockers/Challenegs you have faced:
+  Tanay Rathore:
 
-  Team Member2:
+    What have you done in the week: I made the maiin page of clone with background image, Netflix loogo and login features. i also polished the whole website through css frameworks
+    Blockers/Challenegs you have faced: how to do frameworks for buttons
 
-    What have you done in the week:
-    Blockers/Challenegs you have faced:
+  Anushka Mathur:
 
-  Team Member3:
+    What have you done in the week: I added the image features and fixed and resized them by css frameworks.          
+    Blockers/Challenegs you have faced: how to aligm texts with the images
 
-    What have you done in the week:
-    Blockers/Challenegs you have faced:
+  Vaishali Soni:
 
-  Team Member4:
+    What have you done in the week: I made the Frequentely Asked Questions section, did labeling, created Answer Blocks(after).
+    Blockers/Challenegs you have faced: how to create after answer boxes.
 
-    What have you done in the week:
-    Blockers/Challenegs you have faced:
+  Vansh Sharma:
+
+    What have you done in the week: I edited added the  Media-queries  part for accessing in small-screen.
+    Blockers/Challenegs you have faced: how to resize the whole screen so we can access it on mobile screen.
 ```
 
 ### Logs
@@ -110,24 +112,27 @@ Date:
 
 ## Project
 
-This section contains the details about the different projects made by the team.
+NETFLIX CLONE
 
-### Project 1
+### Project 1 - NETFLIX CLONE
 
-<!-- Add the summary of the project along with the link to the markdown file for the project. Check out the Sample Project.md to get the idea of the structure of the Project file.
+<!-- This is a Netflix landing page clone using HTML and CSS. This website design will be completely responsive for laptop and mobile
 -->
 
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-## Contact
+## ContactG
 
 <!-- Share your contact details. Preferrably these details
-Email
-LinkedIn
-GitHub
+Email-rathoretanay387@gmail.com
 
+GitHub-1) https://github.com/tanay387 ( Tanay Rathore )
+       2)https://github.com/anushkaM04 ( Anushka Mathur)
+       3)https://github.com/vaishalisoni2111 (Vaishali Soni)
+       4)https://github.com/vansh147 (Vansh Sharma)
+       
 Note: Do not share your mobile number as it will expose it over the internet
 -->
 
