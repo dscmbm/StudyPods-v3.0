@@ -61,18 +61,22 @@ SP03\_\_ is an amazing team built by the efforts of its team members and the sup
 
 ### Team
 
-Person1<br>
-Person2<br>
-Person3<br>
-Person4<br>
+#### Jay Prakash Choudhary
+#### Praveen Batesar
+#### Ritika Solanki
+#### Honey Agrawal 
 
 ### Mentor
 
-Mentor1
+#### Chirag Sharma
 
 ## Weekly/Monthly Logs
 
 Weekly Logs is an important activity planned by DSC MBM to motivate participants to note their progress and prepare the log for future generation to plan accordingly.
+### Week-1: Basic Python
+### Week-2: Data Science(Data Cleaning,Data Extraction etc)
+### Week-3: AI/Ml
+### Week-4: Project
 
 ### Format
 
@@ -114,8 +118,8 @@ This section contains the details about the different projects made by the team.
 
 ### Project 1
 
-<!-- Add the summary of the project along with the link to the markdown file for the project. Check out the Sample Project.md to get the idea of the structure of the Project file.
--->
+Stock Prediction Model:-
+Stock Prediction project using machine learning involves collecting and preprocessing historical stock market data, selecting relevant features, choosing a machine learning algorithm, training and evaluating the model, and deploying it to predict future stock prices.
 
 ## License
 
