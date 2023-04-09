@@ -33,15 +33,15 @@ This project is a QR code scanner and reader that can read QR codes from images 
 
 ### Built With
 
-Python, OpenCV
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
 
 ## Getting Started
 1. Clone the project repository from GitHub.
 2. Install OpenCV library using pip.
 3. Run the code in a Python environment.
 ### Prerequisites
-1. Python 3.10 installed
-2. OpenCV library installed
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
 ### Installation
 1. Clone the project repository from GitHub using the command: git clone "Link of this rep."
 2. Install OpenCV library using the command: pip install opencv-python
