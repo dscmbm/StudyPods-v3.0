@@ -3,7 +3,7 @@
 [![MIT License][license-shield]][license-url]
 [![Discord][discord-shield]][discord-url]
 
-<h1 align="center"> SP03__ </h1>
+<h1 align="center"> SP0317 </h1>
 
 This is the folder for team SP03\_\_ participating in StudyPods v3.0 by Google Developers Student Club MBM.
 
