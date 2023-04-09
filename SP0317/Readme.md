@@ -5,7 +5,7 @@
 
 <h1 align="center"> SP0317 </h1>
 
-This is the folder for team SP03\_\_ participating in StudyPods v3.0 by Google Developers Student Club MBM.
+This is the folder for team SP0317 participating in StudyPods v3.0 by Google Developers Student Club MBM.
 
 <!-- <details open="open">
   <summary>Table of Contents</summary>
@@ -73,24 +73,24 @@ SP0317 is an amazing team built by the efforts of its team members and the suppo
 ## Weekly/Monthly Logs
 
 Weekly Logs is an important activity planned by DSC MBM to motivate participants to note their progress and prepare the log for future generation to plan accordingly.
-### Week-1: Basic Python
-=> Learned Python from scratch. 
-=> Practised problems on Codewars daily 
-=> Practised various problems on Hackerrank
-=> Learned Python from books For ex. Python crash course
-### Week-2: Data Science(Data Cleaning,Data Extraction etc)
-=> We started with Data analysis part on kaggle datasets 
-=> Playing with data on google meet 
-=> Also did the EDA part of a Playground series on kaggle
+### Week-1: Basic Python<br>
+=> Learned Python from scratch.<br> 
+=> Practised problems on Codewars daily <br>
+=> Practised various problems on Hackerrank<br>
+=> Learned Python from books For ex. Python crash course<br>
+### Week-2: Data Science(Data Cleaning,Data Extraction etc)<br>
+=> We started with Data analysis part on kaggle datasets <br>
+=> Playing with data on google meet <br>
+=> Also did the EDA part of a Playground series on kaggle<br>
 ### Week-3: AI/Ml
-=> We started with Linear regression on the first day 
-=> Got to know how to apply Linear regression on real time data
-=> Vizualized how various machine learning algo's work
+=> We started with Linear regression on the first day <br>
+=> Got to know how to apply Linear regression on real time data<br>
+=> Vizualized how various machine learning algo's work<br>
 ### Week-4: Project
-project 1: Book Recommendation system
-project 2: Stock prediction system using Deep learning
-project 3: QR code detection 
-project 4: Cross-Zero Game using python
+project 1: Book Recommendation system<br>
+project 2: Stock prediction system using Deep learning<br>
+project 3: Cross-Zero Game using python <br>
+project 4: QR code detection<br>
 
 ## Project
 
@@ -125,16 +125,14 @@ This project is a QR code scanner and reader that can read QR codes from images 
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
-🥷 - Mentor: https://www.linkedin.com/in/chirag-kumar-sharma-5286b51b8/
-👨‍👧‍👦 - Team:
-https://www.linkedin.com/in/jay-prakash-choudhary/
-https://www.linkedin.com/in/𝙋𝙧𝙖𝙫𝙚𝙚𝙣-𝘽𝙖𝙩𝙚𝙨𝙖𝙧-940830227/
-https://www.linkedin.com/in/honey-agrawal-24a1a5228/
-https://www.linkedin.com/in/ritika-solanki-a362ba222
+🥷 - Mentor: https://www.linkedin.com/in/chirag-kumar-sharma-5286b51b8/<br>
+👨‍👧‍👦 - Team:<br>
+https://www.linkedin.com/in/jay-prakash-choudhary/<br>
+https://www.linkedin.com/in/𝙋𝙧𝙖𝙫𝙚𝙚𝙣-𝘽𝙖𝙩𝙚𝙨𝙖𝙧-940830227/<br>
+https://www.linkedin.com/in/honey-agrawal-24a1a5228/<br>
+https://www.linkedin.com/in/ritika-solanki-a362ba222<br>
 <!-- Share your contact details. Preferrably these details
-Email
-LinkedIn
-GitHub
+
 
 Note: Do not share your mobile number as it will expose it over the internet
 -->
