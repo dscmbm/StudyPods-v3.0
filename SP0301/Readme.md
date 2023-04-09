@@ -3,9 +3,9 @@
 [![MIT License][license-shield]][license-url]
 [![Discord][discord-shield]][discord-url]
 
-<h1 align="center"> SP03__ </h1>
+<h1 align="center"> SP0301 </h1>
 
-This is the folder for team SP03\_\_ participating in StudyPods v3.0 by Google Developers Student Club MBM.
+This is the folder for team SP0301 participating in StudyPods v3.0 by Google Developers Student Club MBM.
 
 <!-- <details open="open">
   <summary>Table of Contents</summary>
@@ -111,19 +111,21 @@ Date:
 
 ## Project
 
-This section contains the details about the different projects made by the team.
+Shoppable website 
 
 ### Project 1
 
-<!-- Add the summary of the project along with the link to the markdown file for the project. Check out the Sample Project.md to get the idea of the structure of the Project file.
--->
+This shoppable website is created using only HTML , CSS and Bootstrap.
 
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
-
+  
+LinkesIn:- https://www.linkedin.com/in/mohityadav724072/ 
+Github:-  https://github.com/Mohityadav724072
+ 
 <!-- Share your contact details. Preferrably these details
 Email
 LinkedIn
