@@ -1,0 +1,9 @@
+run the studypds.py it is going to ask yoou to upload the digit.
+on uploading click the predict button to predict the digit.
+on the back side mnistjup.py will be running.
+ML models used and found the best one the EDA is all explained in mnist.pynb 
+mnistjup.py is only the commented part of mnist.pynb which is required th eda and choosing the best model has been done in mnist.pynb
+frontend is made from tkinter library and connected through databases.
+the pixel_data.csv stores the image pixel loaded 
+the model reads it.'and stores the result in digit.csv
+the tkinter library then reads the result from digit.csv and displays it on screen.
